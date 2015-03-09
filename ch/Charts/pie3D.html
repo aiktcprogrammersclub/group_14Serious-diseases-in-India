@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>amCharts examples</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="../amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="../amcharts/pie.js" type="text/javascript"></script>
+            <!-- scripts for exporting chart as an image -->
+        <!-- Exporting to image works on all modern browsers except IE9 (IE10 works fine) -->
+        <!-- Note, the exporting will work only if you view the file from web server -->
+        <!--[if (!IE) | (gte IE 10)]> -->
+        <script src="../amcharts/exporting/amexport.js" type="text/javascript"></script>
+        <script src="../amcharts/exporting/rgbcolor.js" type="text/javascript"></script>
+        <script src="../amcharts/exporting/canvg.js" type="text/javascript"></script>
+        <script src="../amcharts/exporting/jspdf.js" type="text/javascript"></script>
+        <script src="../amcharts/exporting/filesaver.js" type="text/javascript"></script>
+        <script src="../amcharts/exporting/jspdf.plugin.addimage.js" type="text/javascript"></script>
+        <!-- <![endif]-->
+
+        <script type="text/javascript">
+            var chart;
+            var legend;
+
+            //alert(profession_count);
+			
+			var chartData =  [
+                {
+                    "Cause": "Injuries",
+                    "Deaths": 156.9
+                },
+                {
+                    "Cause": "Cardiovascular Disease",
+                    "Deaths": 131.1
+                },
+                {
+                    "Cause": "Cancer",
+                    "Deaths": 115.8
+                },
+                {
+                    "Cause": "Chronic Respiratory Disease",
+                    "Deaths": 109.9
+                },
+                {
+                    "Cause": "Diabetes",
+                    "Deaths": 108.3
+                },
+                {
+                    "Cause": "Other Chronic Disease",
+                    "Deaths": 65
+                },
+                {
+                    "Cause": "Communicable, Maternal and Nutritional Deficiency",
+                    "Deaths": 50
+                }
+				
+            ];
+			
+			
+        /*    AmCharts.ready(function () {
+                // PIE CHART
+                chart = new AmCharts.AmPieChart();
+                chart.dataProvider = chartData;
+                chart.titleField = "Profession";
+                chart.valueField = "value";
+                chart.outlineColor = "#FFFFFF";
+                chart.outlineAlpha = 0.8;
+                chart.outlineThickness = 2;
+                chart.balloonText = "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>";
+                // this makes the chart 3D
+                chart.depth3D = 15;
+                chart.angle = 30;
+
+                // WRITE
+                chart.write("chartdiv");
+            });
+			*/
+			var chart = AmCharts.makeChart("chartdiv", {
+    type: "pie",
+    theme: "light",
+    dataProvider: chartData,
+    valueField: "Deaths",
+    titleField: "Cause",
+    outlineAlpha: 0.4,
+    depth3D: 15,
+	legend: {
+        markerType: "circle",
+        position: "right",
+		marginRight: 80,		
+		autoMargins: false
+    },
+    balloonText: "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+    angle: 30,
+       exportConfig: {
+                    menuTop: "21px",
+                    menuBottom: "auto",
+                    menuRight: "21px",
+                    backgroundColor: "#efefef",
+
+                    menuItemStyle	: {
+                    backgroundColor			: '#EFEFEF',
+                    rollOverBackgroundColor	: '#DDDDDD'},
+
+                    menuItems: [{
+                        textAlign: 'center',
+                        icon: '../amcharts/images/export.png',
+                        onclick:function(){},
+                        items: [{
+                            title: 'JPG',
+                            format: 'jpg'
+                        }, {
+                            title: 'PNG',
+                            format: 'png'
+                        }, {
+                            title: 'SVG',
+                            format: 'svg'
+                        }, {
+                            title: 'PDF',
+                            format: 'pdf'
+                        }]
+                    }]
+                }
+});
+
+        </script>
+    </head>
+    
+    <body>
+        <div id="chartdiv" style="width: 100%; height: 400px;"></div>
+    </body>
+
+</html>

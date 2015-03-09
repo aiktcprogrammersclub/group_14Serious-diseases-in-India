@@ -1,0 +1,41 @@
+Circle LITE
+
+October 13 2014 - 1.0.7
+========================================
+ - fixed: header.php logo image not show
+ - updated: style.css: add margin to facebook comment
+
+September 5 2014 - 1.0.6
+========================================
+- fixed: single posts thumbnail show original size
+- fixed: avatar and featured image in single full width error
+
+
+August 4 2014 - 1.0.5
+========================================
+#1.0.5
+- [FIX] flickr widget images size
+- [FIX] tag cloud widget font size
+- [FIX] check if comment approved 
+- [FIX] related article no comment text
+- [FIX] updated comments.php
+
+June 24 2014 - 1.0.4
+========================================
+#1.0.4
+- [FIX] line-height and margin-bottom of breadcrumb
+- [FIX] with author-box: biographical info overflow
+
+
+May 23 2014 - 1.0.3
+========================================
+#1.0.3
+- [ADD] Write license information to header for all resources file (script, css)
+- [FIX] Change action hook "wp_register_style" by "wp_enqueue_style"
+- [FIX] Image overflow on post, page (in Chrome , Safari) /*clear browser cache before test again*/
+
+May 22 2014 - 1.0.2
+========================================
+#1.0.2
+- [FIX] Declare copyright in style.css
+- [FIX] Image overflow on post, page

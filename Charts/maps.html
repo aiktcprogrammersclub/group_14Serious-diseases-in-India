@@ -1,0 +1,91 @@
+<?php 
+
+
+$country[]=array();
+$lan[]=array();
+$lon[]=array();
+$country_count[]=array();
+
+
+$country[$i]=$rows_lanlong[0];
+$lan[$i]=$rows_lanlong[1];
+$lon[$i]=$rows_lanlong[2];
+ 
+?>
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-EyStYNEGKc17adYUbGTfzUUUYchKoMA&sensor=false">
+    </script>
+    <script type="text/javascript">
+    
+	 // alert(cc);
+	  function initialize() {
+	    var marker;
+	  var map;
+	  var country = <?php echo json_encode($country); ?>;
+	  var lat = <?php echo json_encode($lan); ?>;
+	  var lng = <?php echo json_encode($lon); ?>;
+	  var cc = <?php echo json_encode($country_count); ?>;
+	  var myflag= <?php echo json_encode($count); ?>;
+	  var i=0;
+	   var mapOptions = {
+          center: new google.maps.LatLng(0,0),
+          zoom: 2,
+		  
+        };
+		
+         map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+	var infowindow = new google.maps.InfoWindow();	
+	var marker;
+	var iconBase = ''; 
+     while(i<myflag)
+	 {
+myLatlng = new google.maps.LatLng(lat[i], lng[i]);
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+	map: map,
+	icon: iconBase + 'markerimg7.png',
+	animation: google.maps.Animation.DROP
+});
+		 
+	  
+google.maps.event.addListener(marker, 'click', (function(marker, i) {
+	return function(){
+   var contentString = '<div style="text-align : center; height:100px; width:100%; "> <h3  style="text-align : center; width:100%; background-color:#13b6df;" > '+ country[i] + '</h3>'+'<div id="bodyContent">' +  "<p > " + "Number of Alumni : " + cc[i] + '</div>' + '</div>' ;
+   infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+
+   infowindow.open(map,marker);
+   }
+  })(marker, i));
+//marker.setMap(map); // To add the marker to the map, call setMap();
+i++;
+    }
+	  }
+
+
+
+    
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map-canvas"/>
+  
+  </body>
+
+  </html>	

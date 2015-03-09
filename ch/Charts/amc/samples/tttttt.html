@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html id="__html" class="" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=1170">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>3D Column Chart | amCharts</title>
+	<style>
+		@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+	</style>
+	<!-- DETECT RENDER MODE -->
+	<script type="text/javascript">
+		(function() {
+			var dMode		= document.documentMode;
+			var className	= "";
+			if ( dMode ) {
+				if ( dMode < 9 ) {
+					className += ' ieLT9 ';
+				}
+				className += 'ie' + dMode;
+				document.getElementById('__html').setAttribute('class',className);
+			}
+		})();
+	</script>
+
+	<!-- META PROFILE / PINGBACK -->
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.amcharts.com/xmlrpc.php">
+	<script type="text/javascript">
+		var ajaxurl = 'http://www.amcharts.com/wp-admin/admin-ajax.php';
+		var homeurl = 'http://www.amcharts.com';
+	</script>
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.24 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.amcharts.com/demos/3d-column-chart/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="3D Column Chart - amCharts" />
+<meta property="og:description" content="Columns and bars in our charts can have a 3D look. You can adjust depth and angle to make them more deep &#8211; click EDIT button and play with depth3D and angle properties. Hidden Chart Cursor adds a better user experience If you check the source of this sample, you will notice that it has &hellip;" />
+<meta property="og:url" content="http://www.amcharts.com/demos/3d-column-chart/" />
+<meta property="og:site_name" content="amCharts" />
+<meta property="article:published_time" content="2013-12-03T14:08:36+00:00" />
+<meta property="article:modified_time" content="2014-01-30T07:11:03+00:00" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="amCharts &raquo; Feed" href="http://feeds.feedburner.com/amcharts/" />
+<link rel="alternate" type="application/rss+xml" title="amCharts &raquo; Comments Feed" href="http://www.amcharts.com/comments/feed/" />
+<link rel='stylesheet' type='text/css' media='all' href='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/download-monitor/assets/css/frontend.css,wp-content/plugins/nextend-facebook-connect/buttons/facebook-btn.css,wp-content/plugins/nextend-google-connect/buttons/google-btn.css,wp-content/themes/amcharts/static/vendor/bootstrap/bootstrap.min.css,wp-content/themes/amcharts/static/vendor/fontawesome/font-awesome.min.css,wp-content/themes/amcharts/static/css/core.css,wp-content/themes/amcharts/static/vendor/codemirror/lib/codemirror.css' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/amcharts.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/ammap_amcharts_extension.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/maps/js/worldLow.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/maps/js/continentsLow.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/maps/js/usaLow.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=lib/3/exporting/amexport_combined.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/amcharts/static/js/core.js,lib/3/pie.js,lib/3/serial.js,lib/3/amstock.js,lib/3/funnel.js,lib/3/gauge.js,lib/3/radar.js,lib/3/xy.js,wp-content/themes/amcharts/static/vendor/codemirror/lib/codemirror.js,wp-content/themes/amcharts/static/vendor/codemirror/mode/javascript/javascript.js,wp-content/themes/amcharts/static/vendor/codemirror/mode/css/css.js,wp-content/themes/amcharts/static/vendor/codemirror/mode/xml/xml.js,wp-content/themes/amcharts/static/vendor/codemirror/mode/htmlmixed/htmlmixed.js,wp-content/themes/amcharts/static/js/demo.js'></script>
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/amcharts/static/vendor/bootstrap/bootstrap.min.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.amcharts.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.amcharts.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8" />
+<link rel='shortlink' href='http://www.amcharts.com/?p=383' />
+<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/anti-captcha/anti-captcha-0.3.js.php?ver=3f8b2a81da929223ae025fcec26dde0d'></script>
+</head>
+
+<body class="single single-demos postid-383">
+	<div class="app">
+		<div class="app-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="navbar navbar-default" role="navigation"><div class="app-nav-brand">
+								<div class="app-nav-brand-inner">
+									<a href="http://www.amcharts.com"><img src="http://www.amcharts.com/wp-content/themes/amcharts/static/img/logo.png" alt="amCharts: JavaScript Charts and Maps" /></a>
+								</div>
+							</div><ul id="menu-main-menu" class="nav navbar-nav navbar-main"><li id="nav-menu-item-151" class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span>Products</span></a>
+<ul class="dropdown-menu">
+	<li id="nav-menu-item-104" class=""><a title="JavaScript Charts" href="http://www.amcharts.com/javascript-charts/"><i class='product-icon javascript-charts'></i><span>JavaScript</span><strong class="app-font transform-uppercase">Charts</strong></a></li>
+	<li id="nav-menu-item-103" class=""><a title="JavaScript Stock Chart" href="http://www.amcharts.com/stock-chart/"><i class='product-icon stock-chart'></i><span>JavaScript</span><strong class="app-font transform-uppercase">Stock Chart</strong></a></li>
+	<li id="nav-menu-item-102" class=""><a title="Interactive JavaScript Maps" href="http://www.amcharts.com/javascript-maps/"><i class='product-icon javascript-maps'></i><span>Interactive JavaScript</span><strong class="app-font transform-uppercase">Maps</strong></a></li>
+</ul>
+</li>
+<li id="nav-menu-item-112" class=" dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="/demos/"><span>Demos</span></a>
+<ul class="dropdown-menu">
+	<li id="nav-menu-item-113" class=" active"><a href="/demos/"><span>Charts and Maps</span></a></li>
+	<li id="nav-menu-item-114" class=""><a href="http://www.amcharts.com/inspiration/"><span>Inspiration Gallery</span></a></li>
+</ul>
+</li>
+<li id="nav-menu-item-138" class=""><a href="http://www.amcharts.com/download/"><span>Download</span></a></li>
+<li id="nav-menu-item-96" class=""><a href="http://www.amcharts.com/online-store/"><span>Buy</span></a></li>
+<li id="nav-menu-item-100" class=""><a href="http://www.amcharts.com/support/"><span>Support</span></a></li>
+<li id="nav-menu-item-208" class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span>Docs</span></a>
+<ul class="dropdown-menu">
+	<li id="nav-menu-item-210" class=""><a href="http://docs.amcharts.com/3/"><span>API Reference</span></a></li>
+	<li id="nav-menu-item-972" class=""><a href="/tutorials/"><span>Tutorials</span></a></li>
+</ul>
+</li>
+</ul><ul class="nav navbar-nav navbar-social">
+								<li>
+									<a class="pull-left" href="http://www.facebook.com/amcharts" target="_blank"><i class="fa fa-facebook-square"></i></a>
+								</li>
+								<li>
+									<a class="pull-left" href="http://www.twitter.com/amcharts" target="_blank"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a class="pull-left" href="http://feeds.feedburner.com/amcharts" target="_blank"><i class="fa fa-rss"></i></a>
+								</li>
+								<li>
+									<div style="padding-top:12px; padding-left:15px;"><div class="g-plusone" data-size="small" data-annotation="none" data-width="0"></div></div>
+
+
+									<script type="text/javascript">
+									  (function() {
+									    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+									    po.src = 'https://apis.google.com/js/platform.js';
+									    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+									  })();
+									</script>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="app-body">
+<div class="demo-body">
+	<div id="style_css">
+		<style type="text/css">
+#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}</style>
+	</div>
+	<div class="app-section background-gray">
+		<div class="container">
+			<div class="row demo-headline">
+				<div class="col-sm-12">
+					<a class="demo-flipper-toggler btn btn-flat btn-blue less-margin pull-right transform-uppercase">
+						<span>Edit</span>
+					</a>
+										<div class="demo-nav-top demo-themes pull-right">
+						<ul>
+							<li>
+								<span class="size-small family-light color-lightgray">Click to change theme:&nbsp;&nbsp;</span>
+							</li>
+															<li class="demo-themes-item amcharts-tooltip" data-theme="none" data-css="" data-title="Default">
+									<a class="fx-all-250" href="#theme-none">
+										<img width="36" height="35" src="http://www.amcharts.com/wp-content/uploads/2013/11/theme_none.png" class="attachment-full wp-post-image" alt="theme_none" />									</a>
+								</li>
+															<li class="demo-themes-item amcharts-tooltip" data-theme="patterns" data-css="" data-title="Patterns">
+									<a class="fx-all-250" href="#theme-patterns">
+										<img width="35" height="35" src="http://www.amcharts.com/wp-content/uploads/2013/11/theme_pattern2.png" class="attachment-full wp-post-image" alt="theme_pattern" />									</a>
+								</li>
+															<li class="demo-themes-item amcharts-tooltip" data-theme="chalk" data-css="background: #282828 url('http://www.amcharts.com/lib/3/patterns/chalk/bg.jpg');color: #fff;" data-title="Chalk">
+									<a class="fx-all-250" href="#theme-chalk">
+										<img width="36" height="35" src="http://www.amcharts.com/wp-content/uploads/2013/11/theme_chalk.png" class="attachment-full wp-post-image" alt="theme_chalk" />									</a>
+								</li>
+															<li class="demo-themes-item amcharts-tooltip" data-theme="dark" data-css="background: #3f3f4f;color:#ffffff;	" data-title="Dark">
+									<a class="fx-all-250" href="#theme-dark">
+										<img width="36" height="35" src="http://www.amcharts.com/wp-content/uploads/2013/11/theme_dark2.png" class="attachment-full wp-post-image" alt="theme_dark" />									</a>
+								</li>
+															<li class="demo-themes-item amcharts-tooltip" data-theme="light" data-css="#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}			" data-title="Light">
+									<a class="fx-all-250" href="#theme-light">
+										<img width="36" height="35" src="http://www.amcharts.com/wp-content/uploads/2013/11/theme_light2.png" class="attachment-full wp-post-image" alt="theme_light" />									</a>
+								</li>
+													</ul>
+					</div>
+										<h2 class="app-font family-light size-biggerer" style="padding: 0 0 0 20px;">
+						<i class="product-icon javascript-charts position-relative"></i>Javascript Charts					</h2>
+				</div>
+			</div>
+			<div class="row demo-example">
+				<div class="col-sm-12">
+					<div class="demo-flipper">
+						<div class="demo-flipper-container">
+							<div class="demo-flipper-front demo-panel-white fx-all-250">
+								<div id="container_html" class="chart-reset overflow-auto" style="height: 100%;"></div>
+							</div>
+							<div class="demo-flipper-back demo-panel-white fx-all-250">
+								<form id="jsfiddle" target="_amcharts" method="post" action="http://jsfiddle.net/api/post/library/pure/">
+									<ul class="nav nav-tabs">
+										<li class="active"><a href="#javascript" data-toggle="tab">Javascript</a></li>
+										<li><a href="#html" data-toggle="tab">HTML</a></li>
+										<li><a href="#css" data-toggle="tab">CSS</a></li>
+										<li><a href="#resources" data-toggle="tab">Resources</a></li>
+										<li class="pull-right"><a href="#" class="demo-flipper-jsfiddle">Open in JSFiddle</a></li>
+									</ul>
+									<div class="tab-content position-relative">
+										<div id="javascript" class="tab-pane overflow-auto active">
+											<div id="editor_js" style="height: 437px;"></div>
+											<textarea id="code_js" name="js" class="hidden">var chart = AmCharts.makeChart("chartdiv", {
+    "theme": "light",
+    "type": "serial",
+	"startDuration": 2,
+    "dataProvider": [{
+        "country": "USA",
+        "visits": 4025,
+        "color": "#FF0F00"
+    }, {
+        "country": "China",
+        "visits": 1882,
+        "color": "#FF6600"
+    }, {
+        "country": "Japan",
+        "visits": 1809,
+        "color": "#FF9E01"
+    }, {
+        "country": "Germany",
+        "visits": 1322,
+        "color": "#FCD202"
+    }, {
+        "country": "UK",
+        "visits": 1122,
+        "color": "#F8FF01"
+    }, {
+        "country": "France",
+        "visits": 1114,
+        "color": "#B0DE09"
+    }, {
+        "country": "India",
+        "visits": 984,
+        "color": "#04D215"
+    }, {
+        "country": "Spain",
+        "visits": 711,
+        "color": "#0D8ECF"
+    }, {
+        "country": "Netherlands",
+        "visits": 665,
+        "color": "#0D52D1"
+    }, {
+        "country": "Russia",
+        "visits": 580,
+        "color": "#2A0CD0"
+    }, {
+        "country": "South Korea",
+        "visits": 443,
+        "color": "#8A0CCF"
+    }, {
+        "country": "Canada",
+        "visits": 441,
+        "color": "#CD0D74"
+    }, {
+        "country": "Brazil",
+        "visits": 395,
+        "color": "#754DEB"
+    }, {
+        "country": "Italy",
+        "visits": 386,
+        "color": "#DDDDDD"
+    }, {
+        "country": "Australia",
+        "visits": 384,
+        "color": "#999999"
+    }, {
+        "country": "Taiwan",
+        "visits": 338,
+        "color": "#333333"
+    }, {
+        "country": "Poland",
+        "visits": 328,
+        "color": "#000000"
+    }],
+    "valueAxes": [{
+        "position": "left",
+        "title": "Visitors"
+    }],
+    "graphs": [{
+        "balloonText": "[[category]]: <b>[[value]]</b>",
+        "colorField": "color",
+        "fillAlphas": 1,
+        "lineAlpha": 0.1,
+        "type": "column",
+        "valueField": "visits"
+    }],
+    "depth3D": 20,
+	"angle": 30,
+    "chartCursor": {
+        "categoryBalloonEnabled": false,
+        "cursorAlpha": 0,
+        "zoomable": false
+    },    
+    "categoryField": "country",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "labelRotation": 90
+    },
+	"exportConfig":{
+		"menuTop":"20px",
+        "menuRight":"20px",
+        "menuItems": [{
+        "icon": '/lib/3/images/export.png',
+        "format": 'png'	  
+        }]  
+    }
+});</textarea>
+										</div>
+										<div id="html" class="tab-pane overflow-auto">
+											<div id="editor_html" style="height: 437px;"></div>
+											<textarea id="code_html" name="html" class="hidden"><div id="chartdiv"></div>	</textarea>
+										</div>
+										<div id="css" class="tab-pane overflow-auto">
+											<div id="editor_css" style="height: 437px;"></div>
+											<textarea id="code_css" name="css" class="hidden">
+#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}</textarea>
+										</div>
+										<div id="resources" class="tab-pane overflow-auto">
+											<div id="editor_resources" style="height: 437px;"></div>
+											<textarea id="code_resources" name="resourcesDEF" class="hidden">&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.amcharts.com/lib/3/amcharts.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.amcharts.com/lib/3/serial.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.amcharts.com/lib/3/themes/none.js&quot;&gt;&lt;/script&gt;
+</textarea>
+										</div>
+										<input type="hidden" name="normalize_css" value="yes" />
+										<input type="hidden" name="wrap" value="b" />
+										<input type="hidden" name="dtd" value="html 5" />
+										<input type="hidden" name="title" value="3D Column Chart" />
+										<input type="hidden" name="description" value="Columns and bars in our charts can have a 3D look. You can adjust depth and angle to make them more deep - click EDIT button and play with &lt;strong&gt;depth3D&lt;/strong&gt; and &lt;strong&gt;angle&lt;/strong&gt; properties.
+&lt;h2&gt;Hidden Chart Cursor adds a better user experience&lt;/h2&gt;
+If you check the source of this sample, you will notice that it has a &lt;a href=&quot;http://docs.amcharts.com/3/javascriptcharts/ChartCursor&quot;&gt;ChartCursor&lt;/a&gt; added. Although it is invisible and zooming is disabled (as we don&#039;t need to zoom this chart). We added it for another reason - when you move the mouse over the plot area, the balloon is displayed next to the most close column, even if you are not hovering directly over it. This makes it easier for your users to check real value of the column. We especially recommend using this trick with line graphs - without cursor, you would need to roll-over relatively small bullet to see the balloon, and with cursor you just move the mouse over plot area." />
+										<!-- JS fiddle issue: https://github.com/jsfiddle/jsfiddle-issues/issues/399 
+										<input type="hidden" name="resources" value="<script type="text/javascript" src="http://www.amcharts.com/lib/3/amcharts.js"></script>
+,<script type="text/javascript" src="http://www.amcharts.com/lib/3/serial.js"></script>
+,<script type="text/javascript" src="http://www.amcharts.com/lib/3/themes/none.js"></script>
+" />
+										-->
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 app-content" style="padding-right: 60px;">
+					<h1 class="app-font family-regular size-biggerer">
+						3D Column Chart					</h1>
+					<p>Columns and bars in our charts can have a 3D look. You can adjust depth and angle to make them more deep - click EDIT button and play with <strong>depth3D</strong> and <strong>angle</strong> properties.</p>
+<h2>Hidden Chart Cursor adds a better user experience</h2>
+<p>If you check the source of this sample, you will notice that it has a <a href="http://docs.amcharts.com/3/javascriptcharts/ChartCursor">ChartCursor</a> added. Although it is invisible and zooming is disabled (as we don't need to zoom this chart). We added it for another reason - when you move the mouse over the plot area, the balloon is displayed next to the most close column, even if you are not hovering directly over it. This makes it easier for your users to check real value of the column. We especially recommend using this trick with line graphs - without cursor, you would need to roll-over relatively small bullet to see the balloon, and with cursor you just move the mouse over plot area.</p>
+				</div>
+				<div class="col-sm-4">
+					<div class="demo-nav-pages">
+							<div class="app-nav-page position-relative">
+		<div class="align-left pull-left position-relative" style="z-index:1;">
+			<a class="btn btn-flat btn-nav btn-outline-inverse amcharts-tooltip white-space-normal" href="http://www.amcharts.com/demos/column-and-line-mix/" data-toggle="tooltip" data-title="Previous">
+				<i class="fa fa-angle-left"></i>
+			</a>
+		</div>
+		<div class="align-right pull-right position-relative" style="z-index:1;">
+			<a class="btn btn-flat btn-nav btn-outline-inverse amcharts-tooltip white-space-normal" href="http://www.amcharts.com/demos/3d-stacked-column-chart/" data-toggle="tooltip" data-title="Next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+		<div class="align-center position-absolute full-width" style="z-index:0;">
+			<a class="btn btn-nav less-margin less-padding amcharts-tooltip white-space-normal" href="http://www.amcharts.com/demos/" data-toggle="tooltip" data-title="Back">
+				<span class="less-padding">All Demos</span>
+			</a>
+		</div>
+		<div class="clearfix"e></div>
+	</div>
+						</div>
+					<div class="app-content app-demo-list">
+						<h3 class="family-bold transform-uppercase">Column &amp; Bar demos</h3>
+						<ul class="less-margin">
+													<li><a class="" href="http://www.amcharts.com/demos/column-with-rotated-series/">Column With Rotated Series</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/simple-column-chart/">Simple Column Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/stacked-column-chart/">Stacked Column Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/column-and-line-mix/">Column and Line mix</a></li>
+													<li><a class="disabled" href="http://www.amcharts.com/demos/3d-column-chart/">3D Column Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/3d-stacked-column-chart/">3D Stacked Column Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/100-stacked-column-chart/">100% Stacked Column Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/clustered-bar-chart/">Clustered Bar Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/bar-and-line-chart-mix/">Bar and line chart mix</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/stacked-bar-chart/">Stacked Bar Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/floating-bar-chart/">Floating Bar Chart</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/column-chart-images-top/">Column chart with images on top</a></li>
+													<li><a class="" href="http://www.amcharts.com/demos/3d-bar-chart/">3D Bar Chart</a></li>
+												</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<script type="text/javascript"></script>
+			<script type="text/javascript">AmCharts.themes.patterns={themeName:"patterns",AmChart:{color:"#000000"},AmCoordinateChart:{colors:"#000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000".split(" "),patterns:[{url:"/lib/3/patterns/black/pattern1.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern2.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern3.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern4.png",
+width:4,height:4},{url:"/lib/3/patterns/black/pattern5.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern6.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern7.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern8.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern9.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern10.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern11.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern12.png",width:4,height:4},
+{url:"/lib/3/patterns/black/pattern13.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern14.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern15.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern16.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern17.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern18.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern19.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern20.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern21.png",
+width:4,height:4}]},AmStockChart:{colors:"#000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000".split(" ")},AmPieChart:{depth3D:0,angle:0,labelRadius:10},AmSlicedChart:{outlineAlpha:0.3,colors:"#000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000 #000000".split(" "),outlineThickness:1,
+outlineColor:"#000000",labelTickColor:"#000000",labelTickAlpha:0.3,patterns:[{url:"/lib/3/patterns/black/pattern1.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern2.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern3.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern4.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern5.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern6.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern7.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern8.png",
+width:4,height:4},{url:"/lib/3/patterns/black/pattern9.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern10.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern11.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern12.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern13.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern14.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern15.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern16.png",width:4,height:4},
+{url:"/lib/3/patterns/black/pattern17.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern18.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern19.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern20.png",width:4,height:4},{url:"/lib/3/patterns/black/pattern21.png",width:4,height:4}]},AmRectangularChart:{zoomOutButtonColor:"#000000",zoomOutButtonRollOverAlpha:0.15,zoomOutButtonImage:"lens.png"},AxisBase:{axisColor:"#000000",axisAlpha:0.3,gridAlpha:0.05,gridColor:"#000000"},ChartScrollbar:{backgroundColor:"#000000",
+backgroundAlpha:0.13,graphFillAlpha:0.4,selectedGraphFillAlpha:0.7,graphLineAlpha:0,selectedBackgroundColor:"#FFFFFF",selectedBackgroundAlpha:0.9,gridAlpha:0.15},ChartCursor:{cursorColor:"#000000",color:"#FFFFFF",cursorAlpha:0.5},AmLegend:{color:"#000000",markerBorderAlpha:0.1,markerSize:20,switchColor:"#000000"},AmGraph:{lineAlpha:0.4,fillAlphas:0.5},AmAngularGauge:{faceAlpha:0.5,facePattern:{url:"/lib/3/patterns/black/pattern1.png",width:4,height:4}},GaugeArrow:{color:"#000000",alpha:1,nailAlpha:1,
+innerRadius:"0%",nailRadius:15,startWidth:15,borderAlpha:1,radius:"70%",nailBorderAlpha:1},GaugeAxis:{tickColor:"#000000",tickAlpha:1,tickLength:15,minorTickLength:8,axisThickness:1,axisColor:"#000000",axisAlpha:1,bandAlpha:1},TrendLine:{lineColor:"#c03246",lineAlpha:0.8},AreasSettings:{alpha:0.8,color:"#000000",colorSolid:"#000000",unlistedAreasAlpha:0.4,unlistedAreasColor:"#000000",outlineColor:"#FFFFFF",outlineAlpha:0.5,outlineThickness:0.5,rollOverColor:"#3c5bdc",rollOverOutlineColor:"#FFFFFF",
+selectedOutlineColor:"#FFFFFF",selectedColor:"#f15135",unlistedAreasOutlineColor:"#FFFFFF",unlistedAreasOutlineAlpha:0.5},LinesSettings:{color:"#000000",alpha:0.8},ImagesSettings:{alpha:0.8,labelColor:"#000000",color:"#000000",labelRollOverColor:"#3c5bdc"},ZoomControl:{buttonRollOverColor:"#3c5bdc",buttonFillColor:"#f15135",buttonFillAlpha:0.8,buttonBorderColor:"#000000",gridBackgroundColor:"#000000",gridAlpha:0.8},SmallMap:{mapColor:"#000000",rectangleColor:"#f15135",backgroundColor:"#FFFFFF",backgroundAlpha:0.7,
+borderThickness:1,borderAlpha:0.8},PeriodSelector:{color:"#000000"},PeriodButton:{color:"#000000",background:"transparent",opacity:0.7,border:"1px solid rgba(0, 0, 0, .3)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",boxSizing:"border-box"},PeriodButtonSelected:{color:"#000000",backgroundColor:"rgba(0, 0, 0, 0.1)",border:"1px solid rgba(0, 0, 0, .3)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",opacity:1,boxSizing:"border-box"},PeriodInputField:{color:"#000000",
+background:"transparent",border:"1px solid rgba(0, 0, 0, .3)",outline:"none"},DataSetSelector:{color:"#000000",selectedBackgroundColor:"rgba(0, 0, 0, .25)",rollOverBackgroundColor:"rgba(0, 0, 0, .15)"},DataSetCompareList:{color:"#000000",lineHeight:"100%",boxSizing:"initial",webkitBoxSizing:"initial",border:"1px solid rgba(0, 0, 0, .3)"},DataSetSelect:{border:"1px solid rgba(0, 0, 0, .3)",outline:"none"}};</script>
+			<script type="text/javascript">AmCharts.themes.chalk={themeName:"chalk",AmChart:{color:"#e7e7e7",fontFamily:"Covered By Your Grace",fontSize:18,handDrawn:!0},AmCoordinateChart:{colors:"#FFFFFF #e384a6 #f4d499 #4d90d6 #c7e38c #9986c8 #edf28c #ffd1d4 #5ee1dc #b0eead #fef85a #8badd2".split(" ")},AmSlicedChart:{outlineAlpha:1,labelTickColor:"#FFFFFF",labelTickAlpha:0.3,colors:"#FFFFFF #e384a6 #f4d499 #4d90d6 #c7e38c #9986c8 #edf28c #ffd1d4 #5ee1dc #b0eead #fef85a #8badd2".split(" ")},AmStockChart:{colors:"#FFFFFF #e384a6 #f4d499 #4d90d6 #c7e38c #9986c8 #edf28c #ffd1d4 #5ee1dc #b0eead #fef85a #8badd2".split(" ")},
+AmRectangularChart:{zoomOutButtonColor:"#FFFFFF",zoomOutButtonRollOverAlpha:0.15,zoomOutButtonImage:"lensWhite.png"},AxisBase:{axisColor:"#FFFFFF",gridColor:"#FFFFFF"},ChartScrollbar:{backgroundColor:"#FFFFFF",backgroundAlpha:0.2,graphFillAlpha:0.5,graphLineAlpha:0,selectedBackgroundColor:"#000000",selectedBackgroundAlpha:0.25,fontSize:15,gridAlpha:0.15},ChartCursor:{cursorColor:"#FFFFFF",color:"#000000"},AmLegend:{color:"#e7e7e7",markerSize:20},AmGraph:{lineAlpha:0.8},GaugeArrow:{color:"#FFFFFF",
+alpha:0.1,nailAlpha:0,innerRadius:"40%",nailRadius:15,startWidth:15,borderAlpha:0.8,nailBorderAlpha:0},GaugeAxis:{tickColor:"#FFFFFF",tickAlpha:0.8,tickLength:15,minorTickLength:8,axisThickness:3,axisColor:"#FFFFFF",axisAlpha:0.8,bandAlpha:0.4},TrendLine:{lineColor:"#c03246",lineAlpha:0.8},AmMap:{handDrawn:!1},AreasSettings:{alpha:0.8,color:"#FFFFFF",colorSolid:"#000000",unlistedAreasAlpha:0.4,unlistedAreasColor:"#FFFFFF",outlineColor:"#000000",outlineAlpha:0.5,outlineThickness:0.5,rollOverColor:"#4d90d6",
+rollOverOutlineColor:"#000000",selectedOutlineColor:"#000000",selectedColor:"#e384a6",unlistedAreasOutlineColor:"#000000",unlistedAreasOutlineAlpha:0.5},LinesSettings:{color:"#FFFFFF",alpha:0.8},ImagesSettings:{alpha:0.8,labelFontSize:16,labelColor:"#FFFFFF",color:"#FFFFFF",labelRollOverColor:"#4d90d6"},ZoomControl:{buttonRollOverColor:"#4d90d6",buttonFillColor:"#e384a6",buttonFillAlpha:0.8,buttonBorderColor:"#FFFFFF",gridBackgroundColor:"#FFFFFF",gridAlpha:0.8},SmallMap:{mapColor:"#FFFFFF",rectangleColor:"#e384a6",
+backgroundColor:"#000000",backgroundAlpha:0.7,borderThickness:1,borderAlpha:0.8},PeriodSelector:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7"},PeriodButton:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7",background:"transparent",opacity:0.7,border:"1px solid rgba(255, 255, 255, .15)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",boxSizing:"border-box"},PeriodButtonSelected:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7",
+backgroundColor:"rgba(255, 255, 255, 0.1)",border:"1px solid rgba(255, 255, 255, .3)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",opacity:1,boxSizing:"border-box"},PeriodInputField:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7",background:"transparent",border:"1px solid rgba(255, 255, 255, .15)",outline:"none"},DataSetSelector:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7",selectedBackgroundColor:"rgba(255, 255, 255, .25)",rollOverBackgroundColor:"rgba(255, 255, 255, .15)"},
+DataSetCompareList:{fontFamily:"Covered By Your Grace",fontSize:"16px",color:"#e7e7e7",lineHeight:"100%",boxSizing:"initial",webkitBoxSizing:"initial",border:"1px solid rgba(255, 255, 255, .15)"},DataSetSelect:{fontFamily:"Covered By Your Grace",fontSize:"16px",border:"1px solid rgba(255, 255, 255, .15)",outline:"none"}};</script>
+			<script type="text/javascript">AmCharts.themes.dark={themeName:"dark",AmChart:{color:"#e7e7e7",fontFamily:"Lato",fontSize:13},AmCoordinateChart:{colors:"#ae85c9 #aab9f7 #b6d2ff #c9e6f2 #c9f0e1 #e8d685 #e0ad63 #d48652 #d27362 #495fba #7a629b #8881cc".split(" ")},AmStockChart:{colors:"#639dbd #e8d685 #ae85c9 #c9f0e1 #d48652 #629b6d #719dc3 #719dc3".split(" ")},AmSlicedChart:{outlineAlpha:1,outlineThickness:2,labelTickColor:"#FFFFFF",labelTickAlpha:0.3,colors:"#495fba #e8d685 #ae85c9 #c9f0e1 #d48652 #629b6d #719dc3 #719dc3".split(" ")},
+AmRectangularChart:{zoomOutButtonColor:"#FFFFFF",zoomOutButtonRollOverAlpha:0.15,zoomOutButtonImage:"lensWhite.png"},AxisBase:{axisColor:"#FFFFFF",axisAlpha:0.3,gridAlpha:0.1,gridColor:"#FFFFFF",dashLength:3},ChartScrollbar:{backgroundColor:"#000000",backgroundAlpha:0.2,graphFillAlpha:0.2,graphLineAlpha:0,graphFillColor:"#FFFFFF",selectedGraphFillColor:"#FFFFFF",selectedGraphFillAlpha:0.4,selectedGraphLineColor:"#FFFFFF",selectedBackgroundColor:"#FFFFFF",selectedBackgroundAlpha:0.09,gridAlpha:0.15},
+ChartCursor:{cursorColor:"#FFFFFF",color:"#000000",cursorAlpha:0.5},AmLegend:{color:"#e7e7e7"},AmGraph:{lineAlpha:0.9},GaugeArrow:{color:"#FFFFFF",alpha:0.8,nailAlpha:0,innerRadius:"40%",nailRadius:15,startWidth:15,borderAlpha:0.8,nailBorderAlpha:0},GaugeAxis:{tickColor:"#FFFFFF",tickAlpha:1,tickLength:15,minorTickLength:8,axisThickness:3,axisColor:"#FFFFFF",axisAlpha:1,bandAlpha:0.8},TrendLine:{lineColor:"#c03246",lineAlpha:0.8},AreasSettings:{alpha:0.8,color:"#FFFFFF",colorSolid:"#000000",unlistedAreasAlpha:0.4,
+unlistedAreasColor:"#FFFFFF",outlineColor:"#000000",outlineAlpha:0.5,outlineThickness:0.5,rollOverColor:"#3c5bdc",rollOverOutlineColor:"#000000",selectedOutlineColor:"#000000",selectedColor:"#f15135",unlistedAreasOutlineColor:"#000000",unlistedAreasOutlineAlpha:0.5},LinesSettings:{color:"#FFFFFF",alpha:0.8},ImagesSettings:{alpha:0.8,labelColor:"#FFFFFF",color:"#FFFFFF",labelRollOverColor:"#3c5bdc"},ZoomControl:{buttonRollOverColor:"#3c5bdc",buttonFillColor:"#f15135",buttonFillAlpha:0.8,gridBackgroundColor:"#FFFFFF",
+buttonBorderAlpha:0,buttonCornerRadius:2,gridAlpha:0.5,gridBackgroundColor:"#FFFFFF",homeIconFile:"homeIconWhite.gif",buttonIconAlpha:0.6,gridAlpha:0.2,buttonSize:20},SmallMap:{mapColor:"#FFFFFF",rectangleColor:"#ffffff",backgroundColor:"#000000",backgroundAlpha:0.7,borderThickness:1,borderAlpha:0.8},PeriodSelector:{color:"#e7e7e7"},PeriodButton:{color:"#e7e7e7",background:"transparent",opacity:0.7,border:"1px solid rgba(255, 255, 255, .15)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",
+boxSizing:"border-box"},PeriodButtonSelected:{color:"#e7e7e7",backgroundColor:"rgba(255, 255, 255, 0.1)",border:"1px solid rgba(255, 255, 255, .3)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",opacity:1,boxSizing:"border-box"},PeriodInputField:{color:"#e7e7e7",background:"transparent",border:"1px solid rgba(255, 255, 255, .15)",outline:"none"},DataSetSelector:{color:"#e7e7e7",selectedBackgroundColor:"rgba(255, 255, 255, .25)",rollOverBackgroundColor:"rgba(255, 255, 255, .15)"},
+DataSetCompareList:{color:"#e7e7e7",lineHeight:"100%",boxSizing:"initial",webkitBoxSizing:"initial",border:"1px solid rgba(255, 255, 255, .15)"},DataSetSelect:{border:"1px solid rgba(255, 255, 255, .15)",outline:"none"}};</script>
+			<script type="text/javascript">AmCharts.themes.light={AmChart:{color:"#000000",fontFamily:"Lato",fontSize:13},AmCoordinateChart:{colors:"#67b7dc #fdd400 #84b761 #cc4748 #cd82ad #2f4074 #448e4d #b7b83f #b9783f #b93e3d #913167".split(" ")},AmStockChart:{colors:"#67b7dc #fdd400 #84b761 #cc4748 #cd82ad #2f4074 #448e4d #b7b83f #b9783f #b93e3d #913167".split(" ")},AmSlicedChart:{outlineAlpha:1,outlineThickness:2,labelTickColor:"#000000",labelTickAlpha:0.3,colors:"#67b7dc #fdd400 #84b761 #cc4748 #cd82ad #2f4074 #448e4d #b7b83f #b9783f #b93e3d #913167".split(" ")},
+AmRectangularChart:{zoomOutButtonColor:"#000000",zoomOutButtonRollOverAlpha:0.15,zoomOutButtonImage:"lens.png"},AxisBase:{axisColor:"#000000",axisAlpha:0.3,gridAlpha:0.1,gridColor:"#000000"},ChartScrollbar:{backgroundColor:"#000000",backgroundAlpha:0.12,graphFillAlpha:0.5,graphLineAlpha:0,selectedBackgroundColor:"#FFFFFF",selectedBackgroundAlpha:0.4,gridAlpha:0.15},ChartCursor:{cursorColor:"#000000",color:"#FFFFFF",cursorAlpha:0.5},AmLegend:{color:"#000000"},AmGraph:{lineAlpha:0.9},GaugeArrow:{color:"#000000",
+alpha:0.8,nailAlpha:0,innerRadius:"40%",nailRadius:15,startWidth:15,borderAlpha:0.8,nailBorderAlpha:0},GaugeAxis:{tickColor:"#000000",tickAlpha:1,tickLength:15,minorTickLength:8,axisThickness:3,axisColor:"#000000",axisAlpha:1,bandAlpha:0.8},TrendLine:{lineColor:"#c03246",lineAlpha:0.8},AreasSettings:{alpha:0.8,color:"#67b7dc",colorSolid:"#003767",unlistedAreasAlpha:0.4,unlistedAreasColor:"#000000",outlineColor:"#FFFFFF",outlineAlpha:0.5,outlineThickness:0.5,rollOverColor:"#3c5bdc",rollOverOutlineColor:"#FFFFFF",
+selectedOutlineColor:"#FFFFFF",selectedColor:"#f15135",unlistedAreasOutlineColor:"#FFFFFF",unlistedAreasOutlineAlpha:0.5},LinesSettings:{color:"#000000",alpha:0.8},ImagesSettings:{alpha:0.8,labelColor:"#000000",color:"#000000",labelRollOverColor:"#3c5bdc"},ZoomControl:{buttonRollOverColor:"#3c5bdc",buttonFillColor:"#3994e2",buttonBorderColor:"#3994e2",buttonFillAlpha:0.8,gridBackgroundColor:"#FFFFFF",buttonBorderAlpha:0,buttonCornerRadius:2,gridColor:"#FFFFFF",gridBackgroundColor:"#000000",buttonIconAlpha:0.6,
+gridAlpha:0.6,buttonSize:20},SmallMap:{mapColor:"#000000",rectangleColor:"#ffffff",backgroundColor:"#FFFFFF",backgroundAlpha:0.7,borderThickness:1,borderAlpha:0.8},PeriodSelector:{color:"#000000"},PeriodButton:{color:"#000000",background:"transparent",opacity:0.7,border:"1px solid rgba(0, 0, 0, .3)",MozBorderRadius:"5px",borderRadius:"5px",margin:"1px",outline:"none",boxSizing:"border-box"},PeriodButtonSelected:{color:"#000000",backgroundColor:"#b9cdf5",border:"1px solid rgba(0, 0, 0, .3)",MozBorderRadius:"5px",
+borderRadius:"5px",margin:"1px",outline:"none",opacity:1,boxSizing:"border-box"},PeriodInputField:{color:"#000000",background:"transparent",border:"1px solid rgba(0, 0, 0, .3)",outline:"none"},DataSetSelector:{color:"#000000",selectedBackgroundColor:"#b9cdf5",rollOverBackgroundColor:"#a8b0e4"},DataSetCompareList:{color:"#000000",lineHeight:"100%",boxSizing:"initial",webkitBoxSizing:"initial",border:"1px solid rgba(0, 0, 0, .3)"},DataSetSelect:{border:"1px solid rgba(0, 0, 0, .3)",outline:"none"}};</script>
+	</div>
+			</div> <!-- app-body -->
+			<div class="app-footer">
+				<div class="app-section background-white">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div style="width: 20%;float: left;">
+									<div><h3 class="family-black color-gray transform-uppercase">Products</h3><div class="menu-footer-products-container"><ul id="menu-footer-products" class="menu"><li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.amcharts.com/javascript-charts/">Javascript Charts</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://www.amcharts.com/stock-chart/">Javascript Stock Chart</a></li>
+<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="http://www.amcharts.com/javascript-maps/">Interactive Javascript Maps</a></li>
+</ul></div></div>								</div>
+								<div style="width: 20%;float: left;">
+									<div><h3 class="family-black color-gray transform-uppercase">Related</h3><div class="menu-footer-related-container"><ul id="menu-footer-related" class="menu"><li id="menu-item-3098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3098"><a href="http://www.amcharts.com/visited_countries/">Visited Countries Map</a></li>
+<li id="menu-item-3097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3097"><a href="http://www.amcharts.com/visited_states/">Visited States Map</a></li>
+<li id="menu-item-3068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3068"><a href="http://www.amcharts.com/about/">About</a></li>
+</ul></div></div>								</div>
+								<div style="width: 20%;float: left;">
+									<div><h3 class="family-black color-gray transform-uppercase">Get Social</h3><div class="menu-footer-social-container"><ul id="menu-footer-social" class="menu"><li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="http://www.facebook.com/amcharts"><i class="fa fa-facebook-square color-gray"></i> Facebook</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="http://www.twitter.com/amcharts"><i class="fa fa-twitter color-gray"></i>  Twitter</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91"><a href="http://plus.google.com/+amcharts/"><i class="fa fa-google-plus-square color-gray"></i> Google+</a></li>
+</ul></div></div>								</div>
+								<div style="width: 20%;float: left;">
+									<div><h3 class="family-black color-gray transform-uppercase">Resources</h3><div class="menu-footer-resources-container"><ul id="menu-footer-resources" class="menu"><li id="menu-item-3209" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3209"><a href="http://www.amcharts.com/inspiration/">Inspiration Gallery</a></li>
+<li id="menu-item-2731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2731"><a href="http://www.amcharts.com/svg-maps/">Free SVG Maps</a></li>
+<li id="menu-item-3852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3852"><a href="http://feeds.feedburner.com/amcharts">RSS feed of our blog</a></li>
+</ul></div></div>								</div>
+								<div style="width: 20%;float: left;">
+									<div><h3 class="family-black color-gray transform-uppercase">Contact Us</h3><div class="menu-footer-contact-container"><ul id="menu-footer-contact" class="menu"><li id="menu-item-110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-110"><a href="mailto:contact@amcharts.com">contact@amcharts.com</a></li>
+<li id="menu-item-2563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2563"><a href="http://www.amcharts.com/support/">Get Support</a></li>
+</ul></div></div>								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="app-fieldset text-center">
+									<div class="app-fieldset-legend color-lightgray">Copyright &copy; 2014, amcharts.com. All rights reserved.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="app-wave wave-light"></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-22221037-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	<script type='text/javascript' src='http://www.amcharts.com/wp-content/plugins/bwp-minify/min/?f=wp-content/themes/amcharts/static/vendor/bootstrap/bootstrap.min.js'></script>
+	</body>
+</html>

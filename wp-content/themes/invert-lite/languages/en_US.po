@@ -1,0 +1,1373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invert Lite v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-19 12:00:24+0000\n"
+"Last-Translator: admin <gunjan@techinfini.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:28
+#@ invert
+msgid "We bet this is not what you expected to see here!"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:16
+#@ invert
+msgid "Home"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:93
+#@ invert
+msgid "Author"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:97
+#@ invert
+msgid "Tag"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:101
+#@ invert
+msgid "Search"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:38
+#@ invert
+msgid "Author: "
+msgstr ""
+
+#: functions.php:115
+#@ invert
+msgid "Untitled"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:285
+#: SketchBoard/includes/options-framework.php:290
+#@ optionsframework
+#@ invert
+msgid "Save Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:286
+#@ optionsframework
+msgid "Restore Defaults"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:286
+#@ invert
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:320
+#@ invert
+msgid "Default options restored."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:363
+#@ invert
+msgid "Options saved."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:414
+#@ invert
+msgid "Theme Options"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:108
+#@ invert
+msgid "Upload"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:131
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:268
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:268
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:232
+#@ invert
+msgid "No Repeat"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:233
+#@ invert
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:234
+#@ invert
+msgid "Repeat Vertically"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:235
+#@ invert
+msgid "Repeat All"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:248
+#@ invert
+msgid "Top Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:249
+#@ invert
+msgid "Top Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:250
+#@ invert
+msgid "Top Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:251
+#@ invert
+msgid "Middle Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:252
+#@ invert
+msgid "Middle Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:253
+#@ invert
+msgid "Middle Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:254
+#@ invert
+msgid "Bottom Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:255
+#@ invert
+msgid "Bottom Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:256
+#@ invert
+msgid "Bottom Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:269
+#@ invert
+msgid "Scroll Normally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:270
+#@ invert
+msgid "Fixed in Place"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:344
+#@ invert
+msgid "Normal"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:345
+#@ invert
+msgid "Italic"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:346
+#@ invert
+msgid "Bold"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:347
+#@ invert
+msgid "Bold Italic"
+msgstr ""
+
+#: archive.php:27
+#, php-format
+#@ invert
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+#@ invert
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+#@ invert
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:33
+#@ invert
+msgid "Blog Archives"
+msgstr ""
+
+#: content.php:26
+#: single.php:63
+#@ invert
+msgid "No Comments "
+msgstr ""
+
+#: content.php:26
+#: single.php:63
+#@ invert
+msgid "1 Comment "
+msgstr ""
+
+#: content.php:26
+#: single.php:63
+#@ invert
+msgid "% Comments "
+msgstr ""
+
+#: archive.php:58
+#: author.php:39
+#: category.php:40
+#: index.php:38
+#: search.php:37
+#: tag.php:43
+#@ invert
+msgid "&larr;Previous"
+msgstr ""
+
+#: archive.php:59
+#: author.php:40
+#: category.php:43
+#: index.php:39
+#: search.php:38
+#: tag.php:44
+#@ invert
+msgid "Next&rarr;"
+msgstr ""
+
+#: single.php:92
+#: template-fullwidth.php:42
+#@ invert
+msgid "Not Found"
+msgstr ""
+
+#: category.php:17
+#, php-format
+#@ invert
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:17
+#@ invert
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:25
+#@ invert
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:25
+#@ invert
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:25
+#@ invert
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:25
+#@ invert
+msgid " so far:"
+msgstr ""
+
+#: comments.php:40
+#@ invert
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:32
+#: page.php:42
+#: single.php:69
+#: template-fullwidth.php:34
+#: template-left-sidebar.php:43
+#@ invert
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: content.php:32
+#: page.php:42
+#: single.php:69
+#: template-fullwidth.php:34
+#: template-left-sidebar.php:43
+#@ invert
+msgid "number"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:23
+#@ invert
+msgid "Sketch Themes"
+msgstr ""
+
+#: functions.php:88
+#@ invert
+msgid "Main Navigation"
+msgstr ""
+
+#: content.php:33
+#@ invert
+msgid "Read More &rarr;"
+msgstr ""
+
+#: options.php:48
+#@ invert
+msgid "Yes"
+msgstr ""
+
+#: options.php:49
+#@ invert
+msgid "No"
+msgstr ""
+
+#: options.php:96
+#@ invert
+msgid "General Settings"
+msgstr ""
+
+#: options.php:154
+#@ invert
+msgid "Change the background CSS."
+msgstr ""
+
+#: options.php:498
+#@ invert
+msgid "Copyright Text"
+msgstr ""
+
+#: options.php:499
+#@ invert
+msgid "You can use HTML for links etc.."
+msgstr ""
+
+#: options.php:190
+#@ invert
+msgid "This creates a full size uploader that previews the image."
+msgstr ""
+
+#: page.php:55
+#: template-left-sidebar.php:52
+#@ invert
+msgid "Page Does Not Exist"
+msgstr ""
+
+#: search.php:15
+#, php-format
+#@ invert
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:75
+#, php-format
+#@ invert
+msgid "&larr; %link"
+msgstr ""
+
+#: single.php:78
+#, php-format
+#@ invert
+msgid "%link &rarr;"
+msgstr ""
+
+#: tag.php:21
+#, php-format
+#@ invert
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: 404.php:15
+#@ invert
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:102
+#@ invert
+msgid "Error 404"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:122
+#@ invert
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:123
+#@ invert
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:266
+#@ invert
+msgid "Theme Options "
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:378
+#@ invert
+msgid "Buy Timeliner Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:87
+#: SketchBoard/includes/sketchtheme-upsell.php:113
+#: SketchBoard/includes/sketchtheme-upsell.php:137
+#: SketchBoard/includes/sketchtheme-upsell.php:162
+#: SketchBoard/includes/sketchtheme-upsell.php:187
+#: SketchBoard/includes/sketchtheme-upsell.php:212
+#: SketchBoard/includes/sketchtheme-upsell.php:237
+#: SketchBoard/includes/sketchtheme-upsell.php:261
+#: SketchBoard/includes/sketchtheme-upsell.php:285
+#: SketchBoard/includes/sketchtheme-upsell.php:309
+#: SketchBoard/includes/sketchtheme-upsell.php:332
+#: SketchBoard/includes/sketchtheme-upsell.php:354
+#: SketchBoard/includes/sketchtheme-upsell.php:377
+#@ invert
+msgid "View Demo"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:238
+#@ invert
+msgid "Buy Biznez Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:236
+#@ invert
+msgid "Try Biznez Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:262
+#@ invert
+msgid "Buy Analytical Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:260
+#@ invert
+msgid "Try Analytical Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:286
+#@ invert
+msgid "Buy BizStudio Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:284
+#@ invert
+msgid "Try BizStudio Lite"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:355
+#@ invert
+msgid "Buy FullScreen Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:310
+#@ invert
+msgid "Buy Irex Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:308
+#@ invert
+msgid "Try Irex Lite"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:331
+#@ invert
+msgid "Try Sketchmini Lite"
+msgstr ""
+
+#: archive.php:29
+#@ invert
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:31
+#@ invert
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: author.php:17
+#@ invert
+msgid "Author Archives: "
+msgstr ""
+
+#: content-none.php:12
+#@ invert
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+#, php-format
+#@ invert
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:19
+#@ invert
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: content-none.php:22
+#@ invert
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content.php:22
+#: single.php:59
+#@ invert
+msgid "On"
+msgstr ""
+
+#: content.php:22
+#: content.php:23
+#: content.php:24
+#: single.php:59
+#: single.php:60
+#: single.php:61
+#@ invert
+msgid ","
+msgstr ""
+
+#: content.php:23
+#: single.php:60
+#@ invert
+msgid "Posted by "
+msgstr ""
+
+#: content.php:24
+#: single.php:61
+#@ invert
+msgid "In "
+msgstr ""
+
+#: content.php:26
+#: single.php:63
+#@ invert
+msgid "With "
+msgstr ""
+
+#: options.php:42
+#@ invert
+msgid "Image"
+msgstr ""
+
+#: options.php:43
+#@ invert
+msgid "Color"
+msgstr ""
+
+#: options.php:173
+#@ invert
+msgid "Breadcrumb Background Type"
+msgstr ""
+
+#: options.php:174
+#@ invert
+msgid "Default ( image )."
+msgstr ""
+
+#: options.php:182
+#: options.php:199
+#@ invert
+msgid "No color selected by default."
+msgstr ""
+
+#: options.php:330
+#@ invert
+msgid "Call to Action Box Heading:"
+msgstr ""
+
+#: options.php:331
+#@ invert
+msgid "Enter Call to Action Box Heading."
+msgstr ""
+
+#: options.php:337
+#@ invert
+msgid "Call to Action Box Content:"
+msgstr ""
+
+#: options.php:338
+#@ invert
+msgid "Enter Call to Action Box Content."
+msgstr ""
+
+#: options.php:344
+#@ invert
+msgid "Call to Action Button Text:"
+msgstr ""
+
+#: options.php:345
+#@ invert
+msgid "Enter call to action button text."
+msgstr ""
+
+#: options.php:351
+#@ invert
+msgid "Call to Action Button Link:"
+msgstr ""
+
+#: options.php:352
+#@ invert
+msgid "Enter call to action button Link."
+msgstr ""
+
+#: options.php:381
+#@ invert
+msgid "Client Section Title:"
+msgstr ""
+
+#: footer.php:28
+#@ invert
+msgid "Invert Theme by"
+msgstr ""
+
+#: footer.php:28
+#@ invert
+msgid "SketchThemes"
+msgstr ""
+
+#: options.php:54
+#@ invert
+msgid "Enable"
+msgstr ""
+
+#: options.php:55
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:31
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:44
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:56
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:68
+#@ invert
+msgid "Disable"
+msgstr ""
+
+#: options.php:100
+#@ invert
+msgid "Theme Color:"
+msgstr ""
+
+#: options.php:101
+#@ invert
+msgid "Choose theme color."
+msgstr ""
+
+#: options.php:107
+#@ invert
+msgid "Custom Logo :"
+msgstr ""
+
+#: options.php:108
+#@ invert
+msgid "Choose your own logo for your site. Size: Width 120px and Height 40px."
+msgstr ""
+
+#: options.php:114
+#@ invert
+msgid "Logo Alt Text :"
+msgstr ""
+
+#: options.php:115
+#@ invert
+msgid "Enter alternate text for logo."
+msgstr ""
+
+#: options.php:121
+#@ invert
+msgid "Custom favicon :"
+msgstr ""
+
+#: options.php:122
+#@ invert
+msgid "Choose a custom favicon for your site. Size: Width:16px and Height:16px."
+msgstr ""
+
+#: options.php:128
+#@ invert
+msgid "Header Background Color:"
+msgstr ""
+
+#: options.php:129
+#@ invert
+msgid "Choose header background color."
+msgstr ""
+
+#: options.php:135
+#@ invert
+msgid "Navigation Font Color:"
+msgstr ""
+
+#: options.php:136
+#@ invert
+msgid "Choose navigation font color."
+msgstr ""
+
+#: options.php:142
+#@ invert
+msgid "Custom Pagination:"
+msgstr ""
+
+#: options.php:143
+#@ invert
+msgid "Choose enable to show custom pagination on blog page."
+msgstr ""
+
+#: options.php:153
+#@ invert
+msgid "Custom Background:"
+msgstr ""
+
+#: options.php:161
+#@ invert
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: options.php:165
+#@ invert
+msgid "Breadcrumb Enable/Disable:"
+msgstr ""
+
+#: options.php:166
+#@ invert
+msgid "Radio select with default options \"Enable\"."
+msgstr ""
+
+#: options.php:181
+#@ invert
+msgid "Choose Page Title & Breadcrumb Background Color"
+msgstr ""
+
+#: options.php:189
+#@ invert
+msgid "Upload Page Title & Breadcrumb Background Image (size: 1600px width and 450px height)"
+msgstr ""
+
+#: options.php:198
+#@ invert
+msgid "Choose Page Title & Breadcrumb Color"
+msgstr ""
+
+#: options.php:206
+#@ invert
+msgid "Blog Page Title"
+msgstr ""
+
+#: options.php:211
+#@ invert
+msgid "Blog page Title:"
+msgstr ""
+
+#: options.php:212
+#@ invert
+msgid "Enter blog page title."
+msgstr ""
+
+#: options.php:220
+#@ invert
+msgid "Home Featured Image"
+msgstr ""
+
+#: options.php:224
+#@ invert
+msgid "Home page Image:"
+msgstr ""
+
+#: options.php:225
+#@ invert
+msgid "Choose image for home page. Size: Width 1583px and Height 716px."
+msgstr ""
+
+#: options.php:232
+#@ invert
+msgid "Home Featured Box"
+msgstr ""
+
+#: options.php:237
+#@ invert
+msgid "First Featured Box Heading:"
+msgstr ""
+
+#: options.php:238
+#@ invert
+msgid "Enter first featured box heading."
+msgstr ""
+
+#: options.php:244
+#@ invert
+msgid "First Featured Box Image:"
+msgstr ""
+
+#: options.php:245
+#@ invert
+msgid "Choose image for first featured box. Size: Width 150px and Height 150px."
+msgstr ""
+
+#: options.php:251
+#@ invert
+msgid "First Featured Box Content:"
+msgstr ""
+
+#: options.php:252
+#@ invert
+msgid "Enter content for first featured box."
+msgstr ""
+
+#: options.php:258
+#@ invert
+msgid "First Featured Box Link:"
+msgstr ""
+
+#: options.php:259
+#@ invert
+msgid "Enter link for first featured box."
+msgstr ""
+
+#: options.php:267
+#@ invert
+msgid "Second Featured Box Heading:"
+msgstr ""
+
+#: options.php:268
+#@ invert
+msgid "Enter second featured box heading."
+msgstr ""
+
+#: options.php:274
+#@ invert
+msgid "Second Featured Box Image:"
+msgstr ""
+
+#: options.php:275
+#@ invert
+msgid "Choose image for second featured box. Size: Width 150px and Height 150px."
+msgstr ""
+
+#: options.php:281
+#@ invert
+msgid "Second Featured Box Content:"
+msgstr ""
+
+#: options.php:282
+#@ invert
+msgid "Enter content for second featured box."
+msgstr ""
+
+#: options.php:288
+#@ invert
+msgid "Second Featured Box Link:"
+msgstr ""
+
+#: options.php:289
+#@ invert
+msgid "Enter link for second featured box."
+msgstr ""
+
+#: options.php:296
+#@ invert
+msgid "Third Featured Box Heading:"
+msgstr ""
+
+#: options.php:297
+#@ invert
+msgid "Enter third featured box heading."
+msgstr ""
+
+#: options.php:303
+#@ invert
+msgid "Third Featured Box Image"
+msgstr ""
+
+#: options.php:304
+#@ invert
+msgid "Choose image for third featured box. Size: Width 150px and Height 150px."
+msgstr ""
+
+#: options.php:310
+#@ invert
+msgid "Third Featured Box Content:"
+msgstr ""
+
+#: options.php:311
+#@ invert
+msgid "Enter content for third featured box."
+msgstr ""
+
+#: options.php:317
+#@ invert
+msgid "Third Featured Box Link:"
+msgstr ""
+
+#: options.php:318
+#@ invert
+msgid "Enter link for third featured box."
+msgstr ""
+
+#: options.php:326
+#@ invert
+msgid "Home Call to Action"
+msgstr ""
+
+#: options.php:358
+#@ invert
+msgid "Home Parallax Section"
+msgstr ""
+
+#: options.php:362
+#@ invert
+msgid "Upload Your Image for Parallax "
+msgstr ""
+
+#: options.php:363
+#@ invert
+msgid "Choose image for front page slider. Size: Width 1600px and Height 800px."
+msgstr ""
+
+#: options.php:369
+#@ invert
+msgid "Content Box with Parallax Effect Section:"
+msgstr ""
+
+#: options.php:370
+#@ invert
+msgid "Enter box content."
+msgstr ""
+
+#: options.php:377
+#@ invert
+msgid "Home Client Logo Section"
+msgstr ""
+
+#: options.php:382
+#@ invert
+msgid "Enter client section title."
+msgstr ""
+
+#: options.php:388
+#@ invert
+msgid "First Client Logo Image Title:"
+msgstr ""
+
+#: options.php:389
+#@ invert
+msgid "Enter first client logo image title."
+msgstr ""
+
+#: options.php:395
+#@ invert
+msgid "First Client Logo Image:"
+msgstr ""
+
+#: options.php:396
+#@ invert
+msgid "Choose image for first client logo area. Size: Width 232px and Height 101px."
+msgstr ""
+
+#: options.php:402
+#@ invert
+msgid "First Client Logo Image Link:"
+msgstr ""
+
+#: options.php:403
+#@ invert
+msgid "Enter link for first client logo."
+msgstr ""
+
+#: options.php:409
+#@ invert
+msgid "Second Client logo Image Title:"
+msgstr ""
+
+#: options.php:410
+#@ invert
+msgid "Enter second client logo image title."
+msgstr ""
+
+#: options.php:416
+#@ invert
+msgid "Second Client Logo Image:"
+msgstr ""
+
+#: options.php:417
+#@ invert
+msgid "Choose image for second client logo area. Size: Width 232px and Height 101px."
+msgstr ""
+
+#: options.php:423
+#@ invert
+msgid "Second Client Logo Image Link:"
+msgstr ""
+
+#: options.php:424
+#@ invert
+msgid "Enter link for second client logo."
+msgstr ""
+
+#: options.php:430
+#@ invert
+msgid "Third Client Logo Image Title:"
+msgstr ""
+
+#: options.php:431
+#@ invert
+msgid "Enter third client logo image title."
+msgstr ""
+
+#: options.php:437
+#@ invert
+msgid "Third Client Logo Image:"
+msgstr ""
+
+#: options.php:438
+#@ invert
+msgid "Choose image for third client logo area. Size: Width 232px and Height 101px."
+msgstr ""
+
+#: options.php:444
+#@ invert
+msgid "Third Client Logo Image Link:"
+msgstr ""
+
+#: options.php:445
+#@ invert
+msgid "Enter link for third client logo."
+msgstr ""
+
+#: options.php:451
+#@ invert
+msgid "Fourth Client Logo Image Title:"
+msgstr ""
+
+#: options.php:452
+#@ invert
+msgid "Enter fourth client logo image title."
+msgstr ""
+
+#: options.php:458
+#@ invert
+msgid "Fourth Client Logo Image:"
+msgstr ""
+
+#: options.php:459
+#@ invert
+msgid "Choose image for fourth client logo area. Size: Width 232px and Height 101px."
+msgstr ""
+
+#: options.php:465
+#@ invert
+msgid "Fourth Client Logo Image Link:"
+msgstr ""
+
+#: options.php:466
+#@ invert
+msgid "Enter link for fourth client logo."
+msgstr ""
+
+#: options.php:472
+#@ invert
+msgid "Fifth Client Logo Image Title:"
+msgstr ""
+
+#: options.php:473
+#@ invert
+msgid "Enter fifth client logo image title."
+msgstr ""
+
+#: options.php:479
+#@ invert
+msgid "Fifth Client Logo Image:"
+msgstr ""
+
+#: options.php:480
+#@ invert
+msgid "Choose image for fifth client logo area. Size: Width 232px and Height 101px."
+msgstr ""
+
+#: options.php:486
+#@ invert
+msgid "Fifth Client Logo Image Link:"
+msgstr ""
+
+#: options.php:487
+#@ invert
+msgid "Enter link for fifth client logo."
+msgstr ""
+
+#: options.php:494
+#@ invert
+msgid "Footer Section"
+msgstr ""
+
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:26
+#@ invert
+msgid "Featured Box Section"
+msgstr ""
+
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:30
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:43
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:55
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:67
+#@ invert
+msgid "Enable &nbsp;&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:39
+#@ invert
+msgid "Call to Action Section"
+msgstr ""
+
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:51
+#@ invert
+msgid "Content Box with Parallax Effect Section"
+msgstr ""
+
+#: SketchBoard/functions/skt-frontpage-sections-metabox.php:63
+#@ invert
+msgid "Client Logo Section"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:176
+#@ invert
+msgid " Lite Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:232
+#@ invert
+msgid "To Activate All Features, Please Upgrade to Pro version!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:238
+#@ invert
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:239
+#@ invert
+msgid "Setup Instructions"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:241
+#@ invert
+msgid "Rate Advertica Lite"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:242
+#@ invert
+msgid "Test Drive"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:242
+#@ invert
+msgid "Theme Test Drive"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:79
+#@ invert
+msgid "Rational – Impressive One Pager Responsive Business WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:82
+#@ invert
+msgid "Every business requires an approach that shows the logic behind floating the trade and the exact objective with which the venture is initiated.Adding a rational approach to every business in the first place, the Rational – One Pager Responsive Business WordPress Theme certainly promises to better user’s experience."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:86
+#@ invert
+msgid "Try Rational Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:88
+#@ invert
+msgid "Buy Rational Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:105
+#@ invert
+msgid "InCart - Responsive WooCommerce WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:108
+#@ invert
+msgid "SketchThemes continues the legacy of best multipurpose responsive business WordPress themes. Here we are gearing up to introduce a new WooCommerce WordPress theme which keeps it at the top priority for the customers to proliferate their business. This classy theme is fully WooCommerce compatible, SEO optimized and fully responsive so forget the fear of screen sizes, SEO optimization, just go and grab it."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:112
+#@ invert
+msgid "Try Incart Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:114
+#@ invert
+msgid "Buy Incart Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:130
+#@ invert
+msgid "Convac - Responsive Multi Author Blogging Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:133
+#@ invert
+msgid "Convac is elegant WordPress theme solely designed for web bloggers. The main aim of theme is to improve blog’s appearance for the end users and making blog posting a cakewalk task for bloggers. The theme has options and features which can customize blog as per your user and interest. Design for bloggers, theme is equipped with integrated features such as- post share, post like, subscription widget, supports to all post formats and many more."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:136
+#@ invert
+msgid "Try Convac Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:138
+#@ invert
+msgid "Buy Convac Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:154
+#@ invert
+msgid "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:157
+#@ invert
+msgid "Foodeez Lite is the the classy theme created for Restaurants and hotel Industry. To provide a Classy, elegant theme for the hospitality industry and to fill in the void Foodeez was designed. Every restaurant or hotel desires to showcase it's cuisines and ambiance in a beautiful manner. This was not satiated by any prior theme. Hence, Foodeez was designed. Now you can enjoy a fully Responsive, and Full-width Header Background Image with floating navigation which gets converted into Persistent Navigation on scroll down.The Amazing Parallax section allows you to showcase your Super-Specialty Signature Dishes or your Dish of the Day. In short, if you're a chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a food enthusiast, who want to share the love of food. Then this theme is Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you feel wow. The blog page is clean and designed to The Theme is Loaded with feature which you won't find on any other Lite Themes with this much precision and quality."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:161
+#@ invert
+msgid "Try Foodeez Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:163
+#@ invert
+msgid "Buy Foodeez Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:179
+#@ invert
+msgid "Advertica - Creative MultiPurpose WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:182
+#: SketchBoard/includes/sketchtheme-upsell.php:207
+#@ invert
+msgid "A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. With easy customization options one can easily setup a perfect business theme in a few minutes. The striking features of INVERT are Easy Custom Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured Text."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:186
+#@ invert
+msgid "Try Advertica Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:188
+#@ invert
+msgid "Buy Advertica Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:204
+#@ invert
+msgid "Invert - Responsive MultiPurpose WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:211
+#@ invert
+msgid "Try Invert Free"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:213
+#@ invert
+msgid "Buy Invert Pro"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:229
+#@ invert
+msgid "Biznez - Multi Purpose Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:232
+#@ invert
+msgid "BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and crispy design. BizNez is modern and flexible enough. It allows you to create your website around any niche without the need of any complicated HTML code knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online store or any other kind of website BizNez will be a good pick for you. With our advanced admin panel, tons of customizations are possible and that&#39;ll help you redefine your website&#39;s brand value. You can also change site layout with only a single click. Also, this theme comes with retina ready feature. You can see great details on any devices screen. Woo Commerce and RTL languages are also supported with our BizNez theme."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:254
+#@ invert
+msgid "Analytical Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:257
+#@ invert
+msgid "Analytical is a full width WordPress theme built especially for photographers and others who want to feature more graphics on their website. This theme features a full width background slider which is highly customizable and totally responsive."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:278
+#@ invert
+msgid "BizStudio Full Width Responsive Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:281
+#@ invert
+msgid "Bizstudio is a Simple, Minimal, Responsive, One Click Install, Beautiful and Elegent WordPress Theme. Along with the elegent design the theme is highly flexible and customizable with easy to use Admin Panel Options. From a wide range of options some key options are custom two different layout option(full width and with sidebar), 5 widget areas, custom follow us and contact widget, Logo, logo alt text, custom favicon, social links, rss feed button, custom copyright text and many more. Also it is compitable with various popular plugins like All in One SEO Pack, WP Super Cache, Contact Form 7 etc. It is translation ready as well."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:302
+#@ invert
+msgid "Irex Full Width Portfolio Wordpress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:305
+#@ invert
+msgid "Irex is a simple, minimal, responsive, easy to use, one click install, beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created by SketchThemes.com. Using Irex theme options any one can easily customize this theme according to their need. You can use your own Logo, logo alt text, custom favicon, you can add social links, rss feed to homepage, you can use own copyright text etc. And all this information can be entered using Irex Theme Options Panel. You have to just set the content from the Irex  Themes Options Panel and it will be up ready to use."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:325
+#@ invert
+msgid "SketchMini Free Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:328
+#@ invert
+msgid "SketchMini is a Responsive WordPress Theme Free to use with a GPL. SketchMini has got great features and awesome backend to make use of the available features in the theme. You dont need to be an expert to use this SketchMini theme. SketchMini can act as a great base theme to create any great website."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:348
+#@ invert
+msgid "FullScreen - OnePager Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:351
+#@ invert
+msgid "FullScreen is clean, multipurpose and elegant WordPress theme with fully responsive layout. Theme is suited for all photographers, creative, business and portfolio websites. Theme includes lots of features like full-screen slider, modular homepage, layout shortcodes and more. With our advanced admin panel, tons of customizations are possible and that will help you redefine your website brand value."
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:371
+#@ invert
+msgid "Timeliner - Minimal Ultra Responsive WordPress Theme"
+msgstr ""
+
+#: SketchBoard/includes/sketchtheme-upsell.php:374
+#@ invert
+msgid "Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, clean, modern and highly customizable theme. It allows you to create their website around any niche without the need of any complicated HTML code knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of website Timeliner will be a good pick for you. With our advanced admin panel, tons of customizations are possible and that will help you redefine your website&#39;s brand value. Also, this theme comes with retina ready feature. You can see great details on any devices screen."
+msgstr ""
+

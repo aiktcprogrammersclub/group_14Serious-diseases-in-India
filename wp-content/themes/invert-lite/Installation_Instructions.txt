@@ -1,0 +1,57 @@
+/*========= Invert Lite =========*/
+
+== Copyright and License ==
+Invert Lite WordPress Theme, Copyright (C) 2013 SketchThemes
+Invert Lite WordPress theme is licensed under the GPL.
+
+/*========= Installation =========*/
+
+1. Upload the `Invert-lite` folder to the `/wp-content/themes/` directory
+Activation and Use
+1. Activate the Theme through the 'Themes' menu in WordPress
+2. See Appearance -> Invert Options to change theme options.
+3. create a page and set Home Page Template for front page.
+3. See Settings -> Reading -> Choose a Page for the Front page and Page for Posts page from drop-down.
+
+   "default your latest posts are show on front page if you are not select any page for front page."
+
+/*========= Theme Features and Documentation =========*/
+
+== WP Version ==
+
+It's requires at least version 3.4 to work properly.Please make sure your WP version is at least 3.4.
+
+
+== Theme Setup ==
+
+*General Settings:*
+
+1)Upload a logo and a favicon.
+2)Choose header background ,Navigation Font and Theme Color.
+3)Show custom pagination on blog page(yes/no).
+4)Breadcrumb Settings.
+5)Custom Background.
+
+*Blog page Title*
+1)Enter Blog page Title.
+
+
+*Front Page Options :*
+
+1) Go To Settings -> Reading Settings and Set Your Front and Post page.
+2) Go To Invert Options -> Home page Template options.
+3) Set home page template at your page.
+
+*Footer :*
+1) Enter Your Copyright Text(You can use HTML for links.)
+
+/*========= Page Templates =========*/
+
+1)Home Page Template
+2)Full Width Template
+3)Left Sidebar Template
+
+
+/*========= Translation =========*/
+
+The Invert Lite is ready for translation. Translation files are in /languages.

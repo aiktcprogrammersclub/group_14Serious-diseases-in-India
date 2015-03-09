@@ -1,0 +1,1345 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Circle LITE v1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-18 16:32+0700\n"
+"PO-Revision-Date: 2014-08-04 03:01:44+0000\n"
+"Last-Translator: kopasoft <kopasoft@gmail.com>\n"
+"Language-Team: KOPASOFT <kopasoft@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ circle-light-1.0.5
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+#@ circle-light-1.0.5
+msgid "Page not found..."
+msgstr ""
+
+#: 404.php:13
+#@ circle-light-1.0.5
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it we'll try to fix it. In the meantime, try one of this options:"
+msgstr ""
+
+#: 404.php:15
+#@ circle-light-1.0.5
+msgid "Go back to previous page"
+msgstr ""
+
+#: 404.php:16
+#@ circle-light-1.0.5
+msgid "Go to homepage"
+msgstr ""
+
+#: comments.php:3
+#@ circle-light-1.0.5
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:12
+#@ circle-light-1.0.5
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:569
+#: library/includes/ajax.php:602
+#: library/includes/ajax.php:632
+#: library/includes/ajax.php:654
+#: library/includes/ajax.php:696
+#: library/includes/widgets/posts-carousel-second.php:109
+#: library/includes/widgets/posts-carousel.php:41
+#: library/includes/widgets/posts-medium-img.php:112
+#: library/includes/widgets/posts-small-img.php:30
+#: loop-blog-1.php:104
+#: loop-blog-2.php:106
+#: loop-blog-3.php:114
+#: loop-search.php:32
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-light-1.0.5
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:569
+#: library/includes/ajax.php:602
+#: library/includes/ajax.php:632
+#: library/includes/ajax.php:654
+#: library/includes/ajax.php:696
+#: library/includes/widgets/posts-carousel-second.php:109
+#: library/includes/widgets/posts-carousel.php:41
+#: library/includes/widgets/posts-medium-img.php:112
+#: library/includes/widgets/posts-small-img.php:30
+#: loop-blog-1.php:104
+#: loop-blog-2.php:106
+#: loop-blog-3.php:114
+#: loop-search.php:32
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-light-1.0.5
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:51
+#@ circle-light-1.0.5
+msgid "(Your Comment is Under Moderation)"
+msgstr ""
+
+#: comments.php:59
+#@ circle-light-1.0.5
+msgid "Edit"
+msgstr ""
+
+#: comments.php:76
+#@ circle-light-1.0.5
+msgid "Name <span>(required):</span>"
+msgstr ""
+
+#: comments.php:82
+#@ circle-light-1.0.5
+msgid "Email <span>(required):</span>"
+msgstr ""
+
+#: comments.php:88
+#@ circle-light-1.0.5
+msgid "Website"
+msgstr ""
+
+#: comments.php:95
+#@ circle-light-1.0.5
+msgid "Message <span>(required):</span>"
+msgstr ""
+
+#: comments.php:102
+#, php-format
+#@ circle-light-1.0.5
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:103
+#, php-format
+#@ circle-light-1.0.5
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:103
+#@ circle-light-1.0.5
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:104
+#@ circle-light-1.0.5
+msgid "Your email address will not be published. Required fields are marked <span>(required):</span>"
+msgstr ""
+
+#: comments.php:108
+#@ circle-light-1.0.5
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:109
+#@ circle-light-1.0.5
+msgid "Reply"
+msgstr ""
+
+#: comments.php:110
+#@ circle-light-1.0.5
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:111
+#: library/front.php:251
+#@ circle-light-1.0.5
+msgid "Submit"
+msgstr ""
+
+#: footer.php:68
+#@ circle-light-1.0.5
+msgid "Back to Top"
+msgstr ""
+
+#: header.php:39
+#@ circle-light-1.0.5
+msgid "Menu"
+msgstr ""
+
+#: header.php:82
+#: library/front.php:709
+#: library/front.php:731
+#: library/includes/cpanel/theme-options/post.php:63
+#@ circle-light-1.0.5
+msgid "Facebook"
+msgstr ""
+
+#: header.php:83
+#: library/front.php:712
+#: library/front.php:738
+#: library/includes/cpanel/theme-options/post.php:64
+#@ circle-light-1.0.5
+msgid "Twitter"
+msgstr ""
+
+#: header.php:84
+#: library/includes/cpanel/theme-options/post.php:67
+#@ circle-light-1.0.5
+msgid "Pinterest"
+msgstr ""
+
+#: header.php:85
+#: library/includes/cpanel/theme-options/post.php:65
+#@ circle-light-1.0.5
+msgid "Google"
+msgstr ""
+
+#: header.php:86
+#@ circle-light-1.0.5
+msgid "Dribbble"
+msgstr ""
+
+#: header.php:87
+#@ circle-light-1.0.5
+msgid "Linkedin"
+msgstr ""
+
+#: header.php:88
+#@ circle-light-1.0.5
+msgid "Youtube"
+msgstr ""
+
+#: header.php:89
+#@ circle-light-1.0.5
+msgid "Flickr"
+msgstr ""
+
+#: header.php:90
+#@ circle-light-1.0.5
+msgid "Vimeo"
+msgstr ""
+
+#: header.php:99
+#: header.php:103
+#@ circle-light-1.0.5
+msgid "RSS"
+msgstr ""
+
+#: library/front.php:32
+#@ circle-light-1.0.5
+msgid "Main Menu"
+msgstr ""
+
+#: library/front.php:252
+#@ circle-light-1.0.5
+msgid "Sending..."
+msgstr ""
+
+#: library/front.php:255
+#@ circle-light-1.0.5
+msgid "Please enter your name."
+msgstr ""
+
+#: library/front.php:256
+#: library/front.php:268
+#@ circle-light-1.0.5
+msgid "At least {0} characters required."
+msgstr ""
+
+#: library/front.php:259
+#@ circle-light-1.0.5
+msgid "Please enter your email."
+msgstr ""
+
+#: library/front.php:260
+#@ circle-light-1.0.5
+msgid "Please enter a valid email."
+msgstr ""
+
+#: library/front.php:263
+#@ circle-light-1.0.5
+msgid "Please enter your url."
+msgstr ""
+
+#: library/front.php:264
+#@ circle-light-1.0.5
+msgid "Please enter a valid url."
+msgstr ""
+
+#: library/front.php:267
+#@ circle-light-1.0.5
+msgid "Please enter a message."
+msgstr ""
+
+#: library/front.php:301
+#, php-format
+#@ circle-light-1.0.5
+msgid "Page %s"
+msgstr ""
+
+#: library/front.php:306
+#@ circle-light-1.0.5
+msgid "Small (Kopa)"
+msgstr ""
+
+#: library/front.php:307
+#@ circle-light-1.0.5
+msgid "Medium (Kopa)"
+msgstr ""
+
+#: library/front.php:308
+#@ circle-light-1.0.5
+msgid "Elastic Slide (Kopa)"
+msgstr ""
+
+#: library/front.php:309
+#@ circle-light-1.0.5
+msgid "Squence Slide (Kopa)"
+msgstr ""
+
+#: library/front.php:310
+#@ circle-light-1.0.5
+msgid "Client Logo (Kopa)"
+msgstr ""
+
+#: library/front.php:311
+#@ circle-light-1.0.5
+msgid "Staff Avatar (Kopa)"
+msgstr ""
+
+#: library/front.php:312
+#@ circle-light-1.0.5
+msgid "255x255 (Kopa)"
+msgstr ""
+
+#: library/front.php:327
+#: library/front.php:328
+#@ circle-light-1.0.5
+msgid "auto"
+msgstr ""
+
+#: library/front.php:361
+#: library/front.php:1578
+#: library/front.php:1581
+#@ circle-light-1.0.5
+msgid "Home"
+msgstr ""
+
+#: library/front.php:367
+#@ circle-light-1.0.5
+msgid "Latest News"
+msgstr ""
+
+#: library/front.php:455
+#: searchform.php:6
+#@ circle-light-1.0.5
+msgid "Search"
+msgstr ""
+
+#: library/front.php:456
+#, php-format
+#@ circle-light-1.0.5
+msgid "Your search for \"<span>%1$s</span>\" returned \"<span>%2$s</span>\" posts"
+msgstr ""
+
+#: library/front.php:461
+#, php-format
+#@ circle-light-1.0.5
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: library/front.php:464
+#@ circle-light-1.0.5
+msgid "Page not found"
+msgstr ""
+
+#: library/front.php:517
+#@ circle-light-1.0.5
+msgid "Related articles"
+msgstr ""
+
+#: library/front.php:599
+#@ circle-light-1.0.5
+msgid "1"
+msgstr ""
+
+#: library/front.php:599
+#@ circle-light-1.0.5
+msgid "%"
+msgstr ""
+
+#: library/front.php:599
+#: library/includes/ajax.php:569
+#: library/includes/ajax.php:602
+#: library/includes/ajax.php:632
+#: library/includes/ajax.php:654
+#: library/includes/ajax.php:696
+#: library/includes/widgets/posts-carousel-second.php:109
+#: library/includes/widgets/posts-carousel.php:41
+#: library/includes/widgets/posts-medium-img.php:112
+#: library/includes/widgets/posts-small-img.php:30
+#: loop-blog-1.php:104
+#: loop-blog-2.php:106
+#: loop-blog-3.php:114
+#: loop-search.php:32
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-light-1.0.5
+msgid "Comments Off"
+msgstr ""
+
+#: library/includes/ajax.php:469
+#, php-format
+#@ circle-light-1.0.5
+msgid "%1$s Likes"
+msgstr ""
+
+#: library/front.php:653
+#@ circle-light-1.0.5
+msgid "I recommend this page: "
+msgstr ""
+
+#: library/front.php:653
+#@ circle-light-1.0.5
+msgid ". You can read it on: "
+msgstr ""
+
+#: library/front.php:698
+#@ circle-light-1.0.5
+msgid "Posted by:"
+msgstr ""
+
+#: library/front.php:707
+#@ circle-light-1.0.5
+msgid "Follow:"
+msgstr ""
+
+#: library/front.php:715
+#@ circle-light-1.0.5
+msgid "Google+"
+msgstr ""
+
+#: library/front.php:734
+#@ circle-light-1.0.5
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: library/front.php:741
+#@ circle-light-1.0.5
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: library/front.php:745
+#@ circle-light-1.0.5
+msgid "Google Plus"
+msgstr ""
+
+#: library/front.php:748
+#@ circle-light-1.0.5
+msgid "Please enter your Google Plus URL"
+msgstr ""
+
+#: library/includes/ajax.php:312
+#@ circle-light-1.0.5
+msgid "Name:"
+msgstr ""
+
+#: library/includes/ajax.php:313
+#@ circle-light-1.0.5
+msgid "Message:"
+msgstr ""
+
+#: library/includes/ajax.php:318
+#@ circle-light-1.0.5
+msgid "Website:"
+msgstr ""
+
+#: library/includes/ajax.php:323
+#@ circle-light-1.0.5
+msgid "Contact Form:"
+msgstr ""
+
+#: library/includes/ajax.php:327
+#@ circle-light-1.0.5
+msgid "Oops! errors occured."
+msgstr ""
+
+#: library/includes/ajax.php:329
+#@ circle-light-1.0.5
+msgid "Success! Your email address has been sent."
+msgstr ""
+
+#: library/includes/ajax.php:421
+#@ circle-light-1.0.5
+msgid "Pin It"
+msgstr ""
+
+#: library/includes/ajax.php:426
+#@ circle-light-1.0.5
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: library/includes/ajax.php:426
+#@ circle-light-1.0.5
+msgid "Share by Email"
+msgstr ""
+
+#: library/includes/ajax.php:426
+#@ circle-light-1.0.5
+msgid "Mail To"
+msgstr ""
+
+#: library/includes/ajax.php:542
+#@ circle-light-1.0.5
+msgid " Article"
+msgstr ""
+
+#: library/includes/ajax.php:543
+#@ circle-light-1.0.5
+msgid " Articles"
+msgstr ""
+
+#: library/includes/ajax.php:569
+#: library/includes/ajax.php:602
+#: library/includes/ajax.php:632
+#: library/includes/ajax.php:654
+#: library/includes/ajax.php:696
+#: library/includes/widgets/posts-carousel-second.php:109
+#: library/includes/widgets/posts-carousel.php:41
+#: library/includes/widgets/posts-medium-img.php:112
+#: loop-blog-1.php:104
+#: loop-blog-2.php:106
+#: loop-blog-3.php:114
+#: loop-search.php:32
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-light-1.0.5
+msgid "No Comment"
+msgstr ""
+
+#: library/includes/ajax.php:605
+#: library/includes/ajax.php:663
+#: library/includes/ajax.php:699
+#@ circle-light-1.0.5
+msgid "Continue Reading &raquo;"
+msgstr ""
+
+#: library/includes/ajax.php:714
+#@ circle-light-1.0.5
+msgid "View by:"
+msgstr ""
+
+#: library/includes/ajax.php:714
+#@ circle-light-1.0.5
+msgid "All"
+msgstr ""
+
+#: library/includes/cpanel/layout-manager.php:45
+#: library/includes/cpanel/theme-options.php:32
+#@ circle-light-1.0.5
+msgid "Visit author URL:"
+msgstr ""
+
+#: library/includes/cpanel/layout-manager.php:63
+#@ circle-light-1.0.5
+msgid "Select the layout: "
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:18
+#@ circle-light-1.0.5
+msgid "General Setting"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:19
+#@ circle-light-1.0.5
+msgid "Single Post"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:4
+#: library/includes/cpanel/theme-options.php:20
+#@ circle-light-1.0.5
+msgid "Social Links"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:5
+#: library/includes/cpanel/theme-options.php:21
+#@ circle-light-1.0.5
+msgid "Custom CSS"
+msgstr ""
+
+#: library/includes/ajax.php:173
+#: library/includes/cpanel/layout-manager.php:15
+#: library/includes/cpanel/sidebar-manager.php:4
+#: library/includes/cpanel/theme-options.php:4
+#: library/includes/cpanel/theme-options.php:28
+#: library/kopa.php:37
+#@ circle-light-1.0.5
+msgid "Theme Options"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:39
+#: library/includes/cpanel/theme-options.php:56
+#@ circle-light-1.0.5
+msgid "Save"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:10
+#@ circle-light-1.0.5
+msgid "Enter the your custom CSS code"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:5
+#@ circle-light-1.0.5
+msgid "Logo, Favicon, Apple Icon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:9
+#@ circle-light-1.0.5
+msgid "Logo"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:37
+#: library/includes/cpanel/theme-options/general.php:45
+#: library/includes/cpanel/theme-options/general.php:50
+#: library/includes/cpanel/theme-options/general.php:55
+#: library/includes/cpanel/theme-options/general.php:60
+#: library/includes/widgets/advertisement.php:48
+#@ circle-light-1.0.5
+msgid "Upload"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:15
+#@ circle-light-1.0.5
+msgid "Logo margin"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:16
+#@ circle-light-1.0.5
+msgid "Top margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:18
+#: library/includes/cpanel/theme-options/general.php:22
+#: library/includes/cpanel/theme-options/general.php:26
+#: library/includes/cpanel/theme-options/general.php:30
+#@ circle-light-1.0.5
+msgid "px"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:20
+#@ circle-light-1.0.5
+msgid "Left margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:24
+#@ circle-light-1.0.5
+msgid "Right margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:28
+#@ circle-light-1.0.5
+msgid "Bottom margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:33
+#@ circle-light-1.0.5
+msgid "Favicon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:34
+#@ circle-light-1.0.5
+msgid "Upload your own favicon."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:41
+#@ circle-light-1.0.5
+msgid "Apple Icons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:42
+#@ circle-light-1.0.5
+msgid "Iphone (57px - 57px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:47
+#@ circle-light-1.0.5
+msgid "Iphone Retina (114px - 114px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:52
+#@ circle-light-1.0.5
+msgid "Ipad (72px - 72px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:57
+#@ circle-light-1.0.5
+msgid "Ipad Retina (144px - 144px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:66
+#@ circle-light-1.0.5
+msgid "Main Content"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:70
+#@ circle-light-1.0.5
+msgid "Play Video in lightbox"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:73
+#@ circle-light-1.0.5
+msgid "Enable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:74
+#@ circle-light-1.0.5
+msgid "Disable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:88
+#@ circle-light-1.0.5
+msgid "Contact Information"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:92
+#@ circle-light-1.0.5
+msgid "Show contact information at the header"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:93
+#@ circle-light-1.0.5
+msgid "Email:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:97
+#@ circle-light-1.0.5
+msgid "Phone number:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:106
+#@ circle-light-1.0.5
+msgid "-- Hide --"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:107
+#@ circle-light-1.0.5
+msgid "Tag"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:118
+#@ circle-light-1.0.5
+msgid "Limit"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:103
+#@ circle-light-1.0.5
+msgid "Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:107
+#@ circle-light-1.0.5
+msgid "Background"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:108
+#@ circle-light-1.0.5
+msgid "Theme support two footer style: Dark & Light"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:111
+#@ circle-light-1.0.5
+msgid "Dark"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:112
+#@ circle-light-1.0.5
+msgid "Light"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:124
+#@ circle-light-1.0.5
+msgid "Custom Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:125
+#@ circle-light-1.0.5
+msgid "Enter the content you want to display in your footer (e.g. copyright text)."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:6
+#@ circle-light-1.0.5
+msgid "Facebook Comment"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:10
+#@ circle-light-1.0.5
+msgid "Status"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:13
+#: library/includes/cpanel/theme-options/post.php:42
+#: library/includes/cpanel/theme-options/post.php:71
+#@ circle-light-1.0.5
+msgid "Show"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:14
+#: library/includes/cpanel/theme-options/post.php:43
+#: library/includes/cpanel/theme-options/post.php:72
+#@ circle-light-1.0.5
+msgid "Hide"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:29
+#@ circle-light-1.0.5
+msgid "Number of comments"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:36
+#@ circle-light-1.0.5
+msgid "About Author"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:58
+#@ circle-light-1.0.5
+msgid "Sharing Buttons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:66
+#@ circle-light-1.0.5
+msgid "LinkedIn"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:68
+#@ circle-light-1.0.5
+msgid "Email"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:96
+#@ circle-light-1.0.5
+msgid "Related Posts"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:102
+#@ circle-light-1.0.5
+msgid "Get By"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:108
+#@ circle-light-1.0.5
+msgid "Category"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:8
+#@ circle-light-1.0.5
+msgid "RSS URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:9
+#@ circle-light-1.0.5
+msgid "Display the RSS feed button with the default RSS feed or enter a custom feed below. <br><code>Enter <b>\"HIDE\"</b> if you want to hide it</code>"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:13
+#@ circle-light-1.0.5
+msgid "Facebook_URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:17
+#@ circle-light-1.0.5
+msgid "Twitter URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:21
+#@ circle-light-1.0.5
+msgid "Pinterest URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:25
+#@ circle-light-1.0.5
+msgid "Google Plus URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:29
+#@ circle-light-1.0.5
+msgid "Dribbble URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:33
+#@ circle-light-1.0.5
+msgid "LinkedIn URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:37
+#@ circle-light-1.0.5
+msgid "Youtube URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:41
+#@ circle-light-1.0.5
+msgid "Flickr URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:45
+#@ circle-light-1.0.5
+msgid "Vimeo URL"
+msgstr ""
+
+#: library/includes/metabox/menu.php:6
+#@ circle-light-1.0.5
+msgid "Custom Post Type Archives"
+msgstr ""
+
+#: library/includes/metabox/menu.php:47
+#@ andromedamedia
+msgid "Add to Menu"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:54
+#: library/includes/widgets/advertisement.php:43
+#: library/includes/widgets/elastic-slider-second.php:63
+#: library/includes/widgets/elastic-slider.php:63
+#: library/includes/widgets/flickr.php:46
+#: library/includes/widgets/recent-comments.php:75
+#: library/includes/widgets/sequence-slider.php:42
+#: library/includes/widgets/video.php:32
+#@ circle-light-1.0.5
+msgid "Title:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:58
+#: library/includes/widgets/elastic-slider-second.php:69
+#: library/includes/widgets/elastic-slider.php:69
+#: library/includes/widgets/sequence-slider.php:47
+#@ circle-light-1.0.5
+msgid "Categories:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:60
+#: library/includes/widgets/abstract/posts.php:86
+#: library/includes/widgets/elastic-slider-second.php:71
+#: library/includes/widgets/elastic-slider-second.php:98
+#: library/includes/widgets/elastic-slider.php:71
+#: library/includes/widgets/elastic-slider.php:98
+#: library/includes/widgets/sequence-slider.php:49
+#: library/includes/widgets/sequence-slider.php:75
+#@ circle-light-1.0.5
+msgid "-- None --"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:70
+#: library/includes/widgets/elastic-slider-second.php:82
+#: library/includes/widgets/elastic-slider.php:82
+#: library/includes/widgets/sequence-slider.php:59
+#@ circle-light-1.0.5
+msgid "Relation:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:74
+#: library/includes/widgets/elastic-slider-second.php:86
+#: library/includes/widgets/elastic-slider.php:86
+#: library/includes/widgets/sequence-slider.php:63
+#@ circle-light-1.0.5
+msgid "And"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:75
+#: library/includes/widgets/elastic-slider-second.php:87
+#: library/includes/widgets/elastic-slider.php:87
+#: library/includes/widgets/sequence-slider.php:64
+#@ circle-light-1.0.5
+msgid "Or"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:84
+#: library/includes/widgets/elastic-slider-second.php:96
+#: library/includes/widgets/elastic-slider.php:96
+#: library/includes/widgets/sequence-slider.php:73
+#@ circle-light-1.0.5
+msgid "Tags:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:96
+#: library/includes/widgets/elastic-slider-second.php:108
+#: library/includes/widgets/elastic-slider.php:108
+#: library/includes/widgets/sequence-slider.php:85
+#: library/includes/widgets/video.php:36
+#@ circle-light-1.0.5
+msgid "Number of article:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:107
+#: library/includes/widgets/elastic-slider-second.php:119
+#: library/includes/widgets/elastic-slider.php:119
+#: library/includes/widgets/sequence-slider.php:96
+#: library/includes/widgets/video.php:47
+#@ circle-light-1.0.5
+msgid "Orderby:"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:111
+#: library/includes/widgets/elastic-slider-second.php:123
+#: library/includes/widgets/elastic-slider.php:123
+#: library/includes/widgets/sequence-slider.php:100
+#: library/includes/widgets/video.php:51
+#@ circle-light-1.0.5
+msgid "Lastest"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:112
+#: library/includes/widgets/elastic-slider-second.php:124
+#: library/includes/widgets/elastic-slider.php:124
+#: library/includes/widgets/sequence-slider.php:101
+#: library/includes/widgets/video.php:52
+#@ circle-light-1.0.5
+msgid "Popular by View Count"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:113
+#: library/includes/widgets/elastic-slider-second.php:125
+#: library/includes/widgets/elastic-slider.php:125
+#: library/includes/widgets/sequence-slider.php:102
+#: library/includes/widgets/video.php:53
+#@ circle-light-1.0.5
+msgid "Popular by Comment Count"
+msgstr ""
+
+#: library/includes/widgets/abstract/posts.php:114
+#: library/includes/widgets/elastic-slider-second.php:126
+#: library/includes/widgets/elastic-slider.php:126
+#: library/includes/widgets/sequence-slider.php:103
+#: library/includes/widgets/video.php:54
+#@ circle-light-1.0.5
+msgid "Random"
+msgstr ""
+
+#: library/includes/widgets/advertisement.php:6
+#@ circle-light-1.0.5
+msgid "Display Banner in sidebar"
+msgstr ""
+
+#: library/includes/widgets/advertisement.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Banner"
+msgstr ""
+
+#: library/includes/widgets/advertisement.php:52
+#@ circle-light-1.0.5
+msgid "URL:"
+msgstr ""
+
+#: library/includes/widgets/posts-carousel-second.php:112
+#: library/includes/widgets/posts-carousel.php:44
+#: library/includes/widgets/posts-medium-img.php:116
+#: library/includes/widgets/posts-without-img.php:36
+#: library/includes/widgets/sequence-slider.php:176
+#: loop-blog-1.php:126
+#: loop-blog-2.php:128
+#: loop-blog-3.php:135
+#: loop-search.php:39
+#@ circle-light-1.0.5
+msgid "Read more &raquo;"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:6
+#@ circle-light-1.0.5
+msgid "Display a EiSlideshow from posts, it can regognize the post format"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:8
+#@ circle-light-1.0.5
+msgid "Kopa EiSlideshow 2"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:138
+#: library/includes/widgets/elastic-slider.php:138
+#@ circle-light-1.0.5
+msgid "Animation:"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:142
+#: library/includes/widgets/elastic-slider.php:142
+#@ circle-light-1.0.5
+msgid "Sides"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:143
+#: library/includes/widgets/elastic-slider.php:143
+#@ circle-light-1.0.5
+msgid "Center"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:155
+#: library/includes/widgets/elastic-slider.php:155
+#: library/includes/widgets/sequence-slider.php:115
+#@ circle-light-1.0.5
+msgid "Auto Play"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:159
+#: library/includes/widgets/elastic-slider.php:159
+#: library/includes/widgets/sequence-slider.php:118
+#@ circle-light-1.0.5
+msgid "Interval for the slideshow:"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:164
+#: library/includes/widgets/elastic-slider.php:164
+#@ circle-light-1.0.5
+msgid "Speed for the sliding animation:"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:169
+#: library/includes/widgets/elastic-slider.php:169
+#@ circle-light-1.0.5
+msgid "Percentage of speed for the titles animation:"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider-second.php:174
+#: library/includes/widgets/elastic-slider.php:174
+#@ circle-light-1.0.5
+msgid "Titles animation speed:"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider.php:6
+#@ circle-light-1.0.5
+msgid "Display a EiSlideshow from posts"
+msgstr ""
+
+#: library/includes/widgets/elastic-slider.php:8
+#@ circle-light-1.0.5
+msgid "Kopa EiSlideshow"
+msgstr ""
+
+#: library/includes/widgets/flickr.php:6
+#@ circle-light-1.0.5
+msgid "Display lastets flickr photos"
+msgstr ""
+
+#: library/includes/widgets/flickr.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Flickr"
+msgstr ""
+
+#: library/includes/widgets/flickr.php:50
+#@ circle-light-1.0.5
+msgid "Account:"
+msgstr ""
+
+#: library/includes/widgets/flickr.php:54
+#@ circle-light-1.0.5
+msgid "Limit:"
+msgstr ""
+
+#: library/includes/widgets/gallery.php:6
+#@ circle-light-1.0.5
+msgid "Display list of Gallery postype articles filtered by categories (and/or) tags"
+msgstr ""
+
+#: library/includes/widgets/gallery.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Gallery Widget"
+msgstr ""
+
+#: library/includes/widgets/posts-carousel-second.php:6
+#@ circle-light-1.0.5
+msgid "Display list of articles filter by categories (and/or) tags (carousel effect), it can recognize the post format"
+msgstr ""
+
+#: library/includes/widgets/posts-carousel-second.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Widget ArticleList Carousel 2"
+msgstr ""
+
+#: library/includes/widgets/posts-carousel.php:6
+#@ circle-light-1.0.5
+msgid "Display list of articles filter by categories (and/or) tags (carousel effect)"
+msgstr ""
+
+#: library/includes/widgets/posts-carousel.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Widget ArticleList Carousel"
+msgstr ""
+
+#: library/includes/widgets/posts-medium-img.php:6
+#: library/includes/widgets/posts-small-img.php:6
+#@ circle-light-1.0.5
+msgid "Display list of articles filter by categories (and/or) tags"
+msgstr ""
+
+#: library/includes/widgets/posts-medium-img.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Article List Medium Thumbnail"
+msgstr ""
+
+#: library/includes/widgets/posts-small-img.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Article List Small Thumbnail"
+msgstr ""
+
+#: library/includes/widgets/posts-small-img.php:30
+#@ circle-light-1.0.5
+msgid "0 Comments"
+msgstr ""
+
+#: library/includes/widgets/posts-without-img.php:4
+#@ circle-light-1.0.5
+msgid "Display list of articles filter by categories (and/or) tags "
+msgstr ""
+
+#: library/includes/widgets/posts-without-img.php:6
+#@ circle-light-1.0.5
+msgid "Kopa Article List No Thumbnail"
+msgstr ""
+
+#: library/includes/widgets/posts-without-img.php:33
+#@ circle-light-1.0.5
+msgid "No comments"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:6
+#@ circle-light-1.0.5
+msgid "Display recent comments"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Recent Comments"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:43
+#, php-format
+#@ circle-light-1.0.5
+msgid "%1$s says:"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:79
+#@ circle-light-1.0.5
+msgid "Number of comments to show:"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:83
+#@ circle-light-1.0.5
+msgid "Character limit of comment content"
+msgstr ""
+
+#: library/includes/widgets/recent-comments.php:88
+#@ circle-light-1.0.5
+msgid "Show Avatar"
+msgstr ""
+
+#: library/includes/widgets/sequence-slider.php:4
+#@ circle-light-1.0.5
+msgid "Display a Sequence Slider from posts"
+msgstr ""
+
+#: library/includes/widgets/sequence-slider.php:6
+#@ circle-light-1.0.5
+msgid "Kopa Sequence Slider"
+msgstr ""
+
+#: library/includes/widgets/video.php:6
+#@ circle-light-1.0.5
+msgid "Display list of videos filter by categories (and/or) tags"
+msgstr ""
+
+#: library/includes/widgets/video.php:8
+#@ circle-light-1.0.5
+msgid "Kopa Video"
+msgstr ""
+
+#: library/includes/ajax.php:174
+#: library/includes/cpanel/layout-manager.php:16
+#: library/includes/cpanel/sidebar-manager.php:5
+#: library/includes/cpanel/theme-options.php:5
+#@ circle-light-1.0.5
+msgid "Sidebar Manager"
+msgstr ""
+
+#: library/includes/ajax.php:175
+#: library/includes/cpanel/layout-manager.php:17
+#: library/includes/cpanel/sidebar-manager.php:6
+#: library/includes/cpanel/theme-options.php:6
+#@ circle-light-1.0.5
+msgid "Layout Manager"
+msgstr ""
+
+#: loop-blog-1.php:100
+#: loop-blog-2.php:102
+#: loop-search.php:28
+#: loop-single-1.php:56
+#: loop-single-2.php:56
+#@ circle-light-1.0.5
+msgid "by:"
+msgstr ""
+
+#: loop-blog-1.php:102
+#: loop-blog-2.php:104
+#: loop-blog-3.php:112
+#: loop-search.php:30
+#: loop-single-1.php:58
+#: loop-single-2.php:58
+#@ circle-light-1.0.5
+msgid "in:"
+msgstr ""
+
+#: loop-blog-3.php:46
+#@ circle-light-1.0.5
+msgid "Posted by"
+msgstr ""
+
+#: loop-search.php:6
+#@ circle-light-1.0.5
+msgid "No items found"
+msgstr ""
+
+#: loop-single-1.php:75
+#: loop-single-2.php:75
+#@ circle-light-1.0.5
+msgid "&laquo;&nbsp;Older Article"
+msgstr ""
+
+#: loop-single-1.php:78
+#: loop-single-2.php:78
+#@ circle-light-1.0.5
+msgid "Next Article&nbsp;&raquo;"
+msgstr ""
+
+#: pagination.php:19
+#@ circle-light-1.0.5
+msgid "Previous"
+msgstr ""
+
+#: pagination.php:20
+#@ circle-light-1.0.5
+msgid "Next"
+msgstr ""
+
+#: comments.php:103
+#@ circle-light-1.0.5
+msgid "Log out of this account"
+msgstr ""
+
+#: library/front.php:599
+#@ circle-light-1.0.5
+msgid "0"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:12
+#, php-format
+#@ circle-light-1.0.5
+msgid "Click <a href=\"%s\">here</a> to upload your logo."
+msgstr ""
+

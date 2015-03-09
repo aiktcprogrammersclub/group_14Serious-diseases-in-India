@@ -1,0 +1,16 @@
+/*!
+ * Kopatheme noscript.css (http://kopatheme.com)
+ * Copyright 2014 Kopasoft.
+ * Licensed under GNU General Public License v3
+ */
+
+
+.ei-slider{
+	height: auto;
+}
+.ei-slider-thumbs{
+	display: none;
+}
+.ei-slider-large li{
+	position: relative;
+}

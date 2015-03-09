@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accesspress Lite v2.18\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-02 17:44:20+0000\n"
+"Last-Translator: accesskey <prabin@access-keys.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:14
+#@ accesspresslite
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops ! Cette page ne peut pas être trouvée. "
+
+#: 404.php:18
+#@ accesspresslite
+msgid "It looks like nothing was found at this location."
+msgstr "On dirait que rien n'a été trouvé à cet endroit. "
+
+#: 404.php:23
+#@ accesspresslite
+msgid "error"
+msgstr "Erreur"
+
+#: archive.php:31
+#, php-format
+#@ accesspresslite
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: archive.php:34
+#, php-format
+#@ accesspresslite
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: archive.php:37
+#, php-format
+#@ accesspresslite
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: archive.php:37
+#@ accesspresslite
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:40
+#, php-format
+#@ accesspresslite
+msgid "Year: %s"
+msgstr "Année : "
+
+#: archive.php:40
+#@ accesspresslite
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:43
+#@ accesspresslite
+msgid "Asides"
+msgstr "Apartés"
+
+#: archive.php:46
+#@ accesspresslite
+msgid "Galleries"
+msgstr "Galeries"
+
+#: archive.php:49
+#@ accesspresslite
+msgid "Images"
+msgstr "Photos"
+
+#: archive.php:52
+#@ accesspresslite
+msgid "Videos"
+msgstr "Vidéos"
+
+#: archive.php:55
+#@ accesspresslite
+msgid "Quotes"
+msgstr "Citations"
+
+#: archive.php:58
+#@ accesspresslite
+msgid "Links"
+msgstr "Liens"
+
+#: archive.php:61
+#@ accesspresslite
+msgid "Statuses"
+msgstr "Statuts"
+
+#: archive.php:64
+#@ accesspresslite
+msgid "Audios"
+msgstr "Audio"
+
+#: archive.php:67
+#@ accesspresslite
+msgid "Chats"
+msgstr "Chat"
+
+#: archive.php:70
+#@ accesspresslite
+msgid "Archives"
+msgstr "Archives"
+
+#: comments.php:28
+#, php-format
+#@ accesspresslite
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35
+#: comments.php:52
+#@ accesspresslite
+msgid "Comment navigation"
+msgstr "Option de navigation des commentaires"
+
+#: comments.php:36
+#: comments.php:53
+#@ accesspresslite
+msgid "&larr; Older Comments"
+msgstr "Anciens commentaires"
+
+#: comments.php:37
+#: comments.php:54
+#@ accesspresslite
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires récents"
+
+#: comments.php:64
+#@ accesspresslite
+msgid "Comments are closed."
+msgstr "“option de commentaires” fermée"
+
+#: content-none.php:13
+#@ accesspresslite
+msgid "Nothing Found"
+msgstr "Rien n’a été trouvé"
+
+#: content-none.php:19
+#, php-format
+#@ accesspresslite
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre premier commentaire ?"
+
+#: content-none.php:23
+#@ accesspresslite
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+"Désolé, rien ne correspond à votre recherche. Merci d’essayer une nouvelle fois avec d’autres\n"
+" mots-clé. \n"
+
+#: content-none.php:28
+#@ accesspresslite
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "On ne peut pas accéder à votre recherche. Merci d’utiliser l’outil de recherche."
+
+#: content-page.php:18
+#: content-single.php:36
+#: content.php:118
+#@ accesspresslite
+msgid "Pages:"
+msgstr "Pages"
+
+#: content-page.php:23
+#: content-single.php:77
+#@ accesspresslite
+msgid "Edit"
+msgstr "Modifier"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:46
+#: content-single.php:49
+#: content.php:129
+#: content.php:139
+#@ accesspresslite
+msgid ", "
+msgstr ""
+
+#: content-single.php:54
+#, php-format
+#@ accesspresslite
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Cette entrée est identifiée"
+
+#: content-single.php:56
+#, php-format
+#@ accesspresslite
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Marquer le <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: content-single.php:62
+#, php-format
+#@ accesspresslite
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Cette entrée a été publiée dans %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: content-single.php:64
+#, php-format
+#@ accesspresslite
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Cette entrée a été publiée dans  %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+
+#: content.php:39
+#: content.php:115
+#@ accesspresslite
+msgid "More"
+msgstr "Plus"
+
+#: content.php:133
+#, php-format
+#@ accesspresslite
+msgid "Posted in %1$s"
+msgstr "Publié dans  %1$s"
+
+#: content.php:143
+#, php-format
+#@ accesspresslite
+msgid "Tagged %1$s"
+msgstr "Identifié %1$s"
+
+#: footer.php:47
+#@ accesspresslite
+msgid "Find Us"
+msgstr "Où nous trouver "
+
+#: footer.php:73
+#@ accesspresslite
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:73
+#@ accesspresslite
+msgid "Free WordPress Theme"
+msgstr "Thème Gratuit propose par WordPress"
+
+#: functions.php:58
+#@ accesspresslite
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: header.php:72
+#@ accesspresslite
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/admin-panel/theme-options.php:115
+#@ accesspresslite
+msgid "Theme Options"
+msgstr "Options du Thème"
+
+#: inc/admin-panel/theme-options.php:233
+#@ accesspresslite
+msgid "AccessPress Lite"
+msgstr "AccessPress Lite"
+
+#: inc/admin-panel/theme-options.php:237
+#@ accesspresslite
+msgid "Follow us for new updates"
+msgstr "Suivez-nous pour de nouvelles mises à jour"
+
+#: inc/admin-panel/theme-options.php:248
+#@ accesspresslite
+msgid " Theme Options"
+msgstr "Options du thème\n"
+
+#: inc/admin-panel/theme-options.php:254
+#@ accesspresslite
+msgid "Options saved"
+msgstr "Option a été enregistré"
+
+#: inc/admin-panel/theme-options.php:259
+#: inc/admin-panel/theme-options.php:281
+#@ accesspresslite
+msgid "Basic Settings"
+msgstr "Réglages de base\n"
+
+#: inc/admin-panel/theme-options.php:260
+#@ accesspresslite
+msgid "Home Page"
+msgstr "page d'accueil\n"
+
+#: inc/admin-panel/theme-options.php:261
+#@ accesspresslite
+msgid "Slider Settings"
+msgstr "Paramètres Slider\n"
+
+#: inc/admin-panel/theme-options.php:262
+#@ accesspresslite
+msgid "Sidebar"
+msgstr "sidebar"
+
+#: inc/admin-panel/theme-options.php:263
+#@ accesspresslite
+msgid "Social Links"
+msgstr "Liens sociaux\n"
+
+#: inc/admin-panel/theme-options.php:264
+#@ accesspresslite
+msgid "Tools"
+msgstr "outils"
+
+#: inc/admin-panel/theme-options.php:265
+#@ accesspresslite
+msgid "About AccessPress Lite"
+msgstr "À propos de AccessPress Lite"
+
+#: inc/admin-panel/theme-options.php:284
+#@ accesspresslite
+msgid "Disable Responsive Design?"
+msgstr "Désactiver Responsive Design ?"
+
+#: inc/admin-panel/theme-options.php:287
+#: inc/admin-panel/theme-options.php:599
+#: inc/admin-panel/theme-options.php:902
+#: inc/admin-panel/theme-options.php:910
+#@ accesspresslite
+msgid "Check to disable"
+msgstr "cliquez pour désactiver"
+
+#: inc/admin-panel/theme-options.php:291
+#@ accesspresslite
+msgid "Web Page Layout"
+msgstr "Mise en page web\n"
+
+#: inc/admin-panel/theme-options.php:304
+#@ accesspresslite
+msgid "Show Search in Header?"
+msgstr "Voir Recherche dans tête de la page ?"
+
+#: inc/admin-panel/theme-options.php:307
+#: inc/admin-panel/theme-options.php:476
+#: inc/admin-panel/theme-options.php:501
+#: inc/admin-panel/theme-options.php:515
+#: inc/admin-panel/theme-options.php:524
+#: inc/admin-panel/theme-options.php:834
+#: inc/admin-panel/theme-options.php:842
+#: inc/admin-panel/theme-options.php:859
+#: inc/admin-panel/theme-options.php:867
+#@ accesspresslite
+msgid "Check to enable"
+msgstr "cliquez pour activer"
+
+#: inc/admin-panel/theme-options.php:312
+#@ accesspresslite
+msgid "Upload Favicon"
+msgstr "télécharger Favicon"
+
+#: inc/admin-panel/theme-options.php:316
+#: inc/admin-panel/theme-options.php:337
+#@ accesspresslite
+msgid "Upload"
+msgstr "télécharger"
+
+#: inc/admin-panel/theme-options.php:317
+#@ accesspresslite
+msgid "Upload favicon(.png) with size of 16px X 16px"
+msgstr "Ajouter favicon ( .png ) avec la taille de 16px X 16px"
+
+#: inc/admin-panel/theme-options.php:322
+#: inc/admin-panel/theme-options.php:327
+#@ accesspresslite
+msgid "Remove"
+msgstr "supprimer"
+
+#: inc/admin-panel/theme-options.php:335
+#@ accesspresslite
+msgid "Upload Logo"
+msgstr "Télécharger Logo\n"
+
+#: inc/admin-panel/theme-options.php:342
+#@ accesspresslite
+msgid "Header Text"
+msgstr "texte de tête\n"
+
+#: inc/admin-panel/theme-options.php:344
+#@ accesspresslite
+msgid "Example.. Call Us : 985XXX9856XX"
+msgstr "Exemple .. Contactez-nous : 985XXX9856XX"
+
+#: inc/admin-panel/theme-options.php:345
+#@ accesspresslite
+msgid "Html content allowed"
+msgstr "Contenu HTML autorisée"
+
+#: inc/admin-panel/theme-options.php:348
+#@ accesspresslite
+msgid "Menu Alignment"
+msgstr "Menu de l'alignement\n"
+
+#: inc/admin-panel/theme-options.php:362
+#@ accesspresslite
+msgid "Select the category to display as Events"
+msgstr "Sélectionnez la catégorie à afficher comme des événements\n"
+
+#: inc/admin-panel/theme-options.php:376
+#@ accesspresslite
+msgid "Select the category to display as Testimonials"
+msgstr "Sélectionnez la catégorie à afficher comme Témoignages\n"
+
+#: inc/admin-panel/theme-options.php:390
+#@ accesspresslite
+msgid "Select the category to display as Blog"
+msgstr "Sélectionnez la catégorie à afficher comme Blog\n"
+
+#: inc/admin-panel/theme-options.php:404
+#@ accesspresslite
+msgid "Select the category to display as Portfolio/Products"
+msgstr "Sélectionnez la catégorie à afficher comme portefeuille / Produits\n"
+
+#: inc/admin-panel/theme-options.php:420
+#@ accesspresslite
+msgid "You can show these categories in the menu by configuring"
+msgstr "Vous pouvez afficher ces catégories dans le menu de configuration\n"
+
+#: inc/admin-panel/theme-options.php:420
+#@ accesspresslite
+msgid "Page."
+msgstr "Page"
+
+#: inc/admin-panel/theme-options.php:427
+#@ accesspresslite
+msgid "Footer Copyright Text"
+msgstr "texte du droit d'auteur dans le pied de page"
+
+#: inc/admin-panel/theme-options.php:437
+#@ accesspresslite
+msgid "Home Page Settings"
+msgstr "Paramètres de la page d'accueil\n"
+
+#: inc/admin-panel/theme-options.php:439
+#@ accesspresslite
+msgid "Home Page Layout"
+msgstr "Mise en page de la page d'accueil\n"
+
+#: inc/admin-panel/theme-options.php:459
+#@ accesspresslite
+msgid "Welcome Post"
+msgstr "message de bienvenue"
+
+#: inc/admin-panel/theme-options.php:473
+#@ accesspresslite
+msgid "Show Full Content?"
+msgstr "Voir le contenu complet ?"
+
+#: inc/admin-panel/theme-options.php:481
+#@ accesspresslite
+msgid "Welcome Post Excerpt Character"
+msgstr "Message de bienvenue  Excerpt Character"
+
+#: inc/admin-panel/theme-options.php:482
+#@ accesspresslite
+msgid "Characters"
+msgstr "caractères "
+
+#: inc/admin-panel/theme-options.php:486
+#: inc/admin-panel/theme-options.php:574
+#@ accesspresslite
+msgid "Read More Text"
+msgstr "lire le reste du texte"
+
+#: inc/admin-panel/theme-options.php:487
+#: inc/admin-panel/theme-options.php:575
+#@ accesspresslite
+msgid "Leave blank if you don't want to show read more"
+msgstr "Laissez ce champ vide si vous ne voulez pas montrer lire la suite"
+
+#: inc/admin-panel/theme-options.php:493
+#@ accesspresslite
+msgid "No of Items to display in Event/News Category beside Welcome Post"
+msgstr "Pas d'éléments à afficher dans la catégorie de l'événement / Nouvelles à côté de Bienvenue post"
+
+#: inc/admin-panel/theme-options.php:498
+#@ accesspresslite
+msgid "Show Event Date?"
+msgstr "Afficher la date de l'événement ?\n"
+
+#: inc/admin-panel/theme-options.php:506
+#@ accesspresslite
+msgid "To replace the Event section in homepage, Go to"
+msgstr "Pour remplacer la section de l'événement dans la page d'accueil , allez à"
+
+#: inc/admin-panel/theme-options.php:506
+#@ accesspresslite
+msgid "widget"
+msgstr "le widget\n"
+
+#: inc/admin-panel/theme-options.php:506
+#@ accesspresslite
+msgid "and drag widget item into the Event Sidebar Widget area."
+msgstr "et faites glisser article widget dans la zone Event Sidebar Widget ."
+
+#: inc/admin-panel/theme-options.php:512
+#@ accesspresslite
+msgid "Show Font Awesome icon for Featured Post?"
+msgstr "Afficher l'icône Font Awesome pour poste promu ?"
+
+#: inc/admin-panel/theme-options.php:516
+#@ accesspresslite
+msgid "(If enabled the featured image will be replaced by Font Awesome Icon. For lists of icons click"
+msgstr "(Si activé l'image sélectionnée sera remplacée par la  Font Awesome Icon. Pour les listes d'icônes cliquez sur"
+
+#: inc/admin-panel/theme-options.php:516
+#: inc/admin-panel/theme-options.php:589
+#: inc/admin-panel/theme-options.php:847
+#: inc/admin-panel/theme-options.php:872
+#: inc/admin-panel/theme-options.php:1052
+#: inc/admin-panel/theme-options.php:1053
+#@ accesspresslite
+msgid "here"
+msgstr "ici"
+
+#: inc/admin-panel/theme-options.php:521
+#@ accesspresslite
+msgid "Show Big Font Awesome icon with center aligned"
+msgstr "Afficher Big Font Awesome icône avec le centre alignés"
+
+#: inc/admin-panel/theme-options.php:528
+#@ accesspresslite
+msgid "Featured Post 1"
+msgstr "Article en vedette numéro 1"
+
+#: inc/admin-panel/theme-options.php:543
+#@ accesspresslite
+msgid "Featured Post 2"
+msgstr "Article en vedette numéro 2"
+
+#: inc/admin-panel/theme-options.php:558
+#@ accesspresslite
+msgid "Featured Post 3"
+msgstr "Article en vedette numéro 3"
+
+#: inc/admin-panel/theme-options.php:581
+#@ accesspresslite
+msgid "Gallery Short Code"
+msgstr "Galerie Short Code"
+
+#: inc/admin-panel/theme-options.php:589
+#@ accesspresslite
+msgid "You can replace the gallery and testimonial section of the home page with custom widget"
+msgstr "Vous pouvez remplacer la galerie et la section témoignage de la page d'accueil avec le widget personnalisé"
+
+#: inc/admin-panel/theme-options.php:596
+#@ accesspresslite
+msgid "Disable Featured Bar (above footer)"
+msgstr "Désactiver Bar vedette (ci-dessus le pied de page)"
+
+#: inc/admin-panel/theme-options.php:606
+#@ accesspresslite
+msgid "Call To action"
+msgstr "Appel à l'action"
+
+#: inc/admin-panel/theme-options.php:612
+#@ accesspresslite
+msgid "Text"
+msgstr "texte"
+
+#: inc/admin-panel/theme-options.php:619
+#@ accesspresslite
+msgid "Read More Button Text"
+msgstr "En savoir plus Bouton texte"
+
+#: inc/admin-panel/theme-options.php:626
+#@ accesspresslite
+msgid "Read More Button link"
+msgstr "Lire la suite link Button"
+
+#: inc/admin-panel/theme-options.php:637
+#@ accesspresslite
+msgid "Home Page Slider Settings"
+msgstr "Paramètres de curseur Page d'accueil"
+
+#: inc/admin-panel/theme-options.php:642
+#@ accesspresslite
+msgid "Show"
+msgstr "Afficher"
+
+#: inc/admin-panel/theme-options.php:651
+#@ accesspresslite
+msgid "Single Posts as a Slider"
+msgstr "Single Posts comme un curseur"
+
+#: inc/admin-panel/theme-options.php:655
+#@ accesspresslite
+msgid "Category Posts as a Slider"
+msgstr "Category Posts comme un curseur"
+
+#: inc/admin-panel/theme-options.php:665
+#@ accesspresslite
+msgid "Select the post that you want to display as a Slider"
+msgstr "Sélectionnez le message que vous souhaitez afficher comme un curseur"
+
+#: inc/admin-panel/theme-options.php:670
+#@ accesspresslite
+msgid "Silder 1"
+msgstr "curseur 1"
+
+#: inc/admin-panel/theme-options.php:683
+#@ accesspresslite
+msgid "Silder 2"
+msgstr "curseur 2"
+
+#: inc/admin-panel/theme-options.php:696
+#@ accesspresslite
+msgid "Silder 3"
+msgstr "curseur 3"
+
+#: inc/admin-panel/theme-options.php:710
+#@ accesspresslite
+msgid "Silder 4"
+msgstr "curseur 4"
+
+#: inc/admin-panel/theme-options.php:726
+#@ accesspresslite
+msgid "Select the Category"
+msgstr "Select the Category"
+
+#: inc/admin-panel/theme-options.php:749
+#@ accesspresslite
+msgid "Adjust the slider as per your need."
+msgstr "Ajustez le curseur selon vos besoins."
+
+#: inc/admin-panel/theme-options.php:752
+#@ accesspresslite
+msgid "Show Slider"
+msgstr "Afficher curseur"
+
+#: inc/admin-panel/theme-options.php:761
+#@ accesspresslite
+msgid "Show Slider Pager (Navigation dots)"
+msgstr "Afficher curseur Pager (points de navigation)"
+
+#: inc/admin-panel/theme-options.php:770
+#@ accesspresslite
+msgid "Show Slider Controls (Arrows)"
+msgstr "Afficher les contrôles de curseur (flèches)"
+
+#: inc/admin-panel/theme-options.php:779
+#@ accesspresslite
+msgid "Slider Transition - fade/slide"
+msgstr "Curseur de transition - effet de fondu / diaporama"
+
+#: inc/admin-panel/theme-options.php:788
+#@ accesspresslite
+msgid "Slider auto Transition"
+msgstr "Transition automatique de curseur"
+
+#: inc/admin-panel/theme-options.php:797
+#@ accesspresslite
+msgid "Slider Speed"
+msgstr "Vitesse de curseur"
+
+#: inc/admin-panel/theme-options.php:803
+#@ accesspresslite
+msgid "Slider Pause"
+msgstr "curseur Pause"
+
+#: inc/admin-panel/theme-options.php:809
+#@ accesspresslite
+msgid "Show Slider Captions"
+msgstr "Afficher curseur légendes"
+
+#: inc/admin-panel/theme-options.php:823
+#@ accesspresslite
+msgid "Sidebar Settings"
+msgstr "Paramètres de la barre latérale"
+
+#: inc/admin-panel/theme-options.php:829
+#@ accesspresslite
+msgid "Left Sidebar Options"
+msgstr "Options du menu de gauche"
+
+#: inc/admin-panel/theme-options.php:831
+#: inc/admin-panel/theme-options.php:856
+#@ accesspresslite
+msgid "Show Latest Events?"
+msgstr "Afficher les derniers événements?"
+
+#: inc/admin-panel/theme-options.php:839
+#: inc/admin-panel/theme-options.php:864
+#@ accesspresslite
+msgid "Show Testimonials?"
+msgstr "Afficher Témoignages?"
+
+#: inc/admin-panel/theme-options.php:847
+#@ accesspresslite
+msgid "To add Custom widget in Left Sidebar, Click"
+msgstr "Pour ajouter un widget personnalisé dans barre latérale de gauche, Cliquez"
+
+#: inc/admin-panel/theme-options.php:854
+#@ accesspresslite
+msgid "Right Sidebar Options"
+msgstr "Options du menu de droite"
+
+#: inc/admin-panel/theme-options.php:872
+#@ accesspresslite
+msgid "To add Custom widget in Right Sidebar, Click"
+msgstr "Pour ajouter un widget personnalisé dans la barre latérale droite, Cliquez"
+
+#: inc/admin-panel/theme-options.php:882
+#@ accesspresslite
+msgid "View All Text"
+msgstr "Afficher tout le texte"
+
+#: inc/admin-panel/theme-options.php:883
+#@ accesspresslite
+msgid "Leave blank if you don't want to show View All Text"
+msgstr "Laissez ce champ vide si vous ne souhaitez pas afficher \\\"Afficher tout le texte\\\""
+
+#: inc/admin-panel/theme-options.php:892
+#@ accesspresslite
+msgid "Social links - Put your social url"
+msgstr "Liens sociaux - Mettez votre lien social"
+
+#: inc/admin-panel/theme-options.php:895
+#@ accesspresslite
+msgid "Put your social url below.. Leave blank if you don't want to show it."
+msgstr "ci-dessous mettre votre url sociale .. Laissez ce champ vide si vous ne voulez pas montrer."
+
+#: inc/admin-panel/theme-options.php:899
+#@ accesspresslite
+msgid "Disable Social icons in header?"
+msgstr "Désactiver icônes sociales en tête?"
+
+#: inc/admin-panel/theme-options.php:907
+#@ accesspresslite
+msgid "Disable Social icons in Footer?"
+msgstr "Désactiver icônes sociales en pied de page?"
+
+#: inc/admin-panel/theme-options.php:1008
+#@ accesspresslite
+msgid "Footer Contact"
+msgstr "\\\"Contactez\\\" en pied de page"
+
+#: inc/admin-panel/theme-options.php:1010
+#@ accesspresslite
+msgid "Google Map Iframe"
+msgstr "Google Map Iframe"
+
+#: inc/admin-panel/theme-options.php:1013
+#@ accesspresslite
+msgid "Enter the Iframe of the google map to show in contact us page.<br />Leave Blank if you don't want to show"
+msgstr "Entrez le Iframe de la carte google pour montrer à page contactez-nous. <br /> Laisser vide si vous ne voulez pas montrer"
+
+#: inc/admin-panel/theme-options.php:1017
+#@ accesspresslite
+msgid "Contact Address"
+msgstr "Adresse de contact"
+
+#: inc/admin-panel/theme-options.php:1020
+#@ accesspresslite
+msgid "Enter the Contact Address<br />Leave Blank if you don't want to show"
+msgstr "Entrez le Adresse de contact <br /> Laisser vide si vous ne voulez pas montrer"
+
+#: inc/admin-panel/theme-options.php:1024
+#@ accesspresslite
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: inc/admin-panel/theme-options.php:1031
+#@ accesspresslite
+msgid "Custom Code (analytics)"
+msgstr "Code personnalisé  (analytics)"
+
+#: inc/admin-panel/theme-options.php:1042
+#@ accesspresslite
+msgid "Know more about AccessPress Themes"
+msgstr "En savoir plus sur Thèmes AccessPress"
+
+#: inc/admin-panel/theme-options.php:1046
+#@ accesspresslite
+msgid "AccessPress Lite - is a FREE WordPress theme by"
+msgstr "AccessPress Lite - est un thème gratuit WordPress par"
+
+#: inc/admin-panel/theme-options.php:1046
+#@ accesspresslite
+msgid "- A WordPress Division of Access Keys."
+msgstr "- Une division WordPress de Access Keys."
+
+#: inc/admin-panel/theme-options.php:1047
+#@ accesspresslite
+msgid " Access Keys - has developed more than 350 WordPress websites for its clients."
+msgstr " Access Keys - a développé plus de 350 sites WordPress pour ses clients."
+
+#: inc/admin-panel/theme-options.php:1049
+#@ accesspresslite
+msgid ""
+"We want to give \"a little beautiful thing\" - back to the community.\n"
+"With our experience, we are creating \"AccessPress Lite\", a free WordPress theme, which includes the most useful features for a generic business website!"
+msgstr "Nous voulons donner \\ \\\"une petite chose merveilleuse \" - à la communauté \\ Grâce à notre expérience, nous créons \\ \\\"AccessPress Lite \", un thème WordPress gratuit, qui comprend les caractéristiques les plus utiles pour un site Web d'entreprise générique.!"
+
+#: inc/admin-panel/theme-options.php:1052
+#@ accesspresslite
+msgid "For documentation, click"
+msgstr "Pour la documentation, cliquez sur"
+
+#: inc/admin-panel/theme-options.php:1053
+#@ accesspresslite
+msgid "For Video tutorials, click"
+msgstr "pour voir des tutoriels, cliquez sur"
+
+#: inc/admin-panel/theme-options.php:1057
+#@ accesspresslite
+msgid "Other products by AccessPressThemes"
+msgstr "Autres produits de AccessPressThemes"
+
+#: inc/admin-panel/theme-options.php:1063
+#@ accesspresslite
+msgid "AccessPress Pro - Premium version of AccessPress lite"
+msgstr "AccessPress Pro - version Premium de AccessPress Lite"
+
+#: inc/admin-panel/theme-options.php:1064
+#@ accesspresslite
+msgid "See Demo "
+msgstr "voir la démo"
+
+#: inc/admin-panel/theme-options.php:1064
+#: inc/admin-panel/theme-options.php:1074
+#@ accesspresslite
+msgid "Here"
+msgstr "ici"
+
+#: inc/admin-panel/theme-options.php:1073
+#@ accesspresslite
+msgid "AccessPress Anonymous Post - A Free WordPress Plugin, available in WordPress.org"
+msgstr "AccessPress Anonymous Post - Un plugin WordPress gratuit, disponible dans WordPress.org"
+
+#: inc/admin-panel/theme-options.php:1074
+#@ accesspresslite
+msgid "Download "
+msgstr "télécharger"
+
+#: inc/admin-panel/theme-options.php:1081
+#@ accesspresslite
+msgid "Get in touch"
+msgstr "rester en contact"
+
+#: inc/admin-panel/theme-options.php:1084
+#@ accesspresslite
+msgid "If you’ve any question/feedback, please get in touch:"
+msgstr "Si vous avez des questions / commentaires, se il vous plaît de rester en contact:"
+
+#: inc/admin-panel/theme-options.php:1085
+#@ accesspresslite
+msgid "General enquiries:"
+msgstr "Renseignements généraux:"
+
+#: inc/admin-panel/theme-options.php:1086
+#@ accesspresslite
+msgid "Support:"
+msgstr "support:"
+
+#: inc/admin-panel/theme-options.php:1087
+#@ accesspresslite
+msgid "Sales:"
+msgstr "vente:"
+
+#: inc/admin-panel/theme-options.php:1092
+#@ accesspresslite
+msgid "Get social"
+msgstr "Get social"
+
+#: inc/admin-panel/theme-options.php:1094
+#@ accesspresslite
+msgid "Get connected with us on social media. Facebook is the best place to find updates on our themes/plugins:"
+msgstr "Restez connecté avec nous sur les médias sociaux. Facebook est le meilleur endroit pour trouver des mises à jour sur nos thèmes / plugins:"
+
+#: inc/admin-panel/theme-options.php:1096
+#@ accesspresslite
+msgid "Like us on facebook:"
+msgstr "Aimez-nous sur Facebook:"
+
+#: inc/admin-panel/theme-options.php:1104
+#@ accesspresslite
+msgid "Save Options"
+msgstr "Enregistrer les options"
+
+#: inc/custom-metabox.php:44
+#@ accesspresslite
+msgid "Left sidebar"
+msgstr "barre latérale gauche"
+
+#: inc/custom-metabox.php:49
+#@ accesspresslite
+msgid "Right sidebar<br/>(default)"
+msgstr "barre latérale droite <br/>(default)"
+
+#: inc/custom-metabox.php:54
+#@ accesspresslite
+msgid "Both Sidebar"
+msgstr "Les deux Barre latérale"
+
+#: inc/custom-metabox.php:60
+#@ accesspresslite
+msgid "No sidebar"
+msgstr "Pas de barre latérale"
+
+#: inc/extras.php:63
+#, php-format
+#@ accesspresslite
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/extras.php:99
+#@ accesspresslite
+msgid "Left Sidebar"
+msgstr "barre latérale de gauche"
+
+#: inc/extras.php:101
+#: inc/extras.php:121
+#@ accesspresslite
+msgid "Display items in the Left Sidebar of the inner pages"
+msgstr "Afficher des éléments dans la barre latérale gauche des pages intérieures"
+
+#: inc/extras.php:109
+#@ accesspresslite
+msgid "Right Sidebar"
+msgstr "barre latérale de droite"
+
+#: inc/extras.php:111
+#@ accesspresslite
+msgid "Display items in the Right Sidebar of the inner pages"
+msgstr "Afficher des éléments dans la barre de droite des pages intérieures"
+
+#: inc/extras.php:119
+#@ accesspresslite
+msgid "Event Sidebar"
+msgstr "Barre latérale événement"
+
+#: inc/extras.php:129
+#@ accesspresslite
+msgid "Blog Right Sidebar"
+msgstr "Barre latérale de droite pour Blog"
+
+#: inc/extras.php:131
+#@ accesspresslite
+msgid "Display items for the blog category in the Right Sidebar of the inner pages"
+msgstr "Afficher les articles de la catégorie de blog dans la barre de droite des pages intérieures"
+
+#: inc/extras.php:139
+#@ accesspresslite
+msgid "Footer Area One"
+msgstr "Pied de page \\\"Zone un\\\""
+
+#: inc/extras.php:141
+#@ accesspresslite
+msgid "Display items in First Footer Area"
+msgstr "Afficher les éléments dans le premier espace pied de page"
+
+#: inc/extras.php:149
+#@ accesspresslite
+msgid "Footer Area Two"
+msgstr "Pied de page Zone Deux"
+
+#: inc/extras.php:151
+#@ accesspresslite
+msgid "Display items in Second Footer Area"
+msgstr "Afficher les éléments dans deuxième zone Pied de page"
+
+#: inc/extras.php:159
+#@ accesspresslite
+msgid "Footer Area Three"
+msgstr "Pied de page \\\"Zone Trois\\\""
+
+#: inc/extras.php:161
+#@ accesspresslite
+msgid "Display items in Third Footer Area"
+msgstr "Afficher les éléments dans troisième zone de Pied de page"
+
+#: inc/extras.php:169
+#@ accesspresslite
+msgid "Footer Area Four"
+msgstr "Pied de page \\\"Zone quatre\\\""
+
+#: inc/extras.php:171
+#@ accesspresslite
+msgid "Display items in Fourth Footer Area"
+msgstr "Afficher les éléments dans quatrième zone Pied de page"
+
+#: inc/extras.php:179
+#@ accesspresslite
+msgid "Left Block above footer"
+msgstr "Bloc de gauche au-dessus de pied de page"
+
+#: inc/extras.php:181
+#@ accesspresslite
+msgid "Display items in the left just above the footer"
+msgstr "Afficher les éléments à gauche, juste au-dessus du pied de page"
+
+#: inc/extras.php:189
+#@ accesspresslite
+msgid "Middle Block above footer"
+msgstr "Bloc central, au-dessus du pied de page"
+
+#: inc/extras.php:191
+#@ accesspresslite
+msgid "Display items in the middle just above the footer and replaces defaul gallery"
+msgstr "Afficher les éléments au milieu juste au-dessus du pied de page et remplace la galerie par défaut"
+
+#: inc/extras.php:199
+#@ accesspresslite
+msgid "Right Block above footer"
+msgstr "Bloc droite, au-dessus du pied de page"
+
+#: inc/extras.php:201
+#@ accesspresslite
+msgid "Display items in the Right just above the footer and replaces Testimonials"
+msgstr "Afficher les éléments de la droite, juste au-dessus du pied de page et remplace Témoignages"
+
+#: inc/template-tags.php:23
+#@ accesspresslite
+msgid "Posts navigation"
+msgstr "Navigation des Postes"
+
+#: inc/template-tags.php:27
+#@ accesspresslite
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class = \\ \\\"méta-nav \"> & larr; </ span> Articles plus anciens"
+
+#: inc/template-tags.php:31
+#@ accesspresslite
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class = \\ \\\"méta-nav \"> & rarr; </ span>"
+
+#: inc/template-tags.php:56
+#@ accesspresslite
+msgid "Post navigation"
+msgstr "navigation des articles"
+
+#: inc/template-tags.php:59
+#, php-format
+#@ accesspresslite
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:60
+#, php-format
+#@ accesspresslite
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:85
+#, php-format
+#@ accesspresslite
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+
+#: index-one.php:386
+#@ accesspresslite
+msgid "Newer posts"
+msgstr "Articles plus récents"
+
+#: index-one.php:387
+#@ accesspresslite
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: index-one.php:442
+#@ accesspresslite
+msgid "Gallery"
+msgstr "galerie"
+
+#: search.php:16
+#, php-format
+#@ accesspresslite
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour:% s"
+
+#: searchform.php:9
+#@ accesspresslite
+msgid "Search..."
+msgstr "Recherche ..."
+

@@ -1,0 +1,23 @@
+/*
+Theme created for use with Sequence.js (http://www.sequencejs.com/)
+
+Theme:   Sliding Horizontal Parallax (Responsive)
+Version:   0.2.2 Beta
+Theme Author:   Ian Lunn @IanLunn
+Author URL:   http://www.ianlunn.co.uk/
+Theme URL:   http://www.sequencejs.com/themes/sliding-horizontal-parallax/
+
+This is a FREE theme and is dual licensed under the following: 
+http://www.opensource.org/licenses/mit-license.php | http://www.gnu.org/licenses/gpl.html
+
+Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise stated.
+Aside from these comments, you may modify and distribute this file as you please. Have fun!
+*/
+
+#nav li {
+    display: inline;
+}
+
+body {
+    min-width: 960px;
+}
